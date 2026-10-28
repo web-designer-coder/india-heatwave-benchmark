@@ -1,4 +1,12 @@
-# India Heatwave Generalization Benchmark
+# India Heatwave Benchmark
+
+## Software release and citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23721963.svg)](https://doi.org/10.5281/zenodo.23721963)
+
+The **India Heatwave Benchmark** software is available as release [v0.2.0 on GitHub](https://github.com/web-designer-coder/india-heatwave-benchmark/releases/tag/v0.2.0). Its archived, version-specific Zenodo record is [doi:10.5281/zenodo.23721964](https://doi.org/10.5281/zenodo.23721964); the [concept DOI](https://doi.org/10.5281/zenodo.23721963) identifies the software across versions. The source archive contains the benchmark code, dependency lockfile, reproducibility manifest, and headline-results reproduction guide. It excludes raw source datasets. The reported verification used cached local inputs; a fresh full-period data acquisition and rerun were not performed. Researchers must obtain any needed inputs from the relevant providers and follow their applicable access and reuse terms.
+
+Suggested software citation: Wankhade, A. (2026). *India Heatwave Benchmark* (Version 0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23721964
 
 This project evaluates short-lead heatwave event probabilities on the Indian 1-degree IMD grid. The primary experiment uses IMD daily maximum-temperature labels and ERA5 reanalysis predictors for 1981–2025. A separate, frozen onset-model evaluation uses IMD real-time Tmax and matching ERA5 data for March–June 2026. The exploratory NASA POWER/MERRA-2 pilot is retained separately and is not used for the primary manuscript results.
 
@@ -105,9 +113,7 @@ uv run --locked python scripts/summarize_yearwise_temporal_test.py
 uv run --locked python scripts/document_novelty_search.py
 ```
 
-The raw NOAA station files, IMD grids, and row-level evaluation records remain local. The focused Crossref/ScienceDirect search log and its scope limits are in [`docs/novelty_search_log_2026-10-27.md`](docs/novelty_search_log_2026-10-27.md). The source code is available in the public repository at <https://github.com/web-designer-coder/india-heatwave-benchmark> under the MIT license. This release has no DOI; use [`CITATION.cff`](CITATION.cff) for the software citation.
-
-The public release should contain source code and configuration only. Do not include IMD files, per-cell labels or predictions, or figures derived from them unless applicable source-data terms have been confirmed.
+The raw NOAA station files, IMD grids, and row-level evaluation records are not redistributed. The focused Crossref/ScienceDirect search log and its scope limits are in [`docs/novelty_search_log_2026-10-27.md`](docs/novelty_search_log_2026-10-27.md). The public software release is MIT-licensed; see [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
 
 After regenerating the results, refresh the compact checksum manifest for the tables, summaries, and figure intended for a source release:
 

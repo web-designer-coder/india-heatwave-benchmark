@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this benchmark software, please cite it as follows."
-title: "India Heatwave Generalization Benchmark"
+title: "India Heatwave Benchmark"
 version: 0.2.0
 date-released: 2026-10-28
 authors:
@@ -10,3 +10,6 @@ authors:
 license: MIT
 type: software
 repository-code: "https://github.com/web-designer-coder/india-heatwave-benchmark"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23721964"
