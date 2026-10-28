@@ -685,31 +685,6 @@
       "sha256": "6de779314a6ffc0b30a3eed55b8447375f51ada6c62a3bc4b1088657ad063810"
     },
     {
-      "path": "src/india_heatwave_benchmark.egg-info/PKG-INFO",
-      "bytes": 957,
-      "sha256": "b689e0c2e0f5f89a330fb1e86b6e7bccb40e3b59568d5d5b328bd9c48a35f568"
-    },
-    {
-      "path": "src/india_heatwave_benchmark.egg-info/SOURCES.txt",
-      "bytes": 3263,
-      "sha256": "d9fd878740e451f53bb5a0bed937e405e5d90f3b3e3aa4bd2f9bf2326a2ccd6a"
-    },
-    {
-      "path": "src/india_heatwave_benchmark.egg-info/dependency_links.txt",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
-      "path": "src/india_heatwave_benchmark.egg-info/requires.txt",
-      "bytes": 243,
-      "sha256": "0fbde25e184583280abfc639432f9b81b353f018551dffd01143f75d7f43f451"
-    },
-    {
-      "path": "src/india_heatwave_benchmark.egg-info/top_level.txt",
-      "bytes": 19,
-      "sha256": "c15338807c7e07256268f1ac57214a975b8a9cd62082dec3970c7f7d490353e1"
-    },
-    {
       "path": "tests/test_artifact_paths.py",
       "bytes": 1209,
       "sha256": "27a0df6f338460cf3f581a1f76feac50776179213a072bdfa7542b0faf13e3dd"
