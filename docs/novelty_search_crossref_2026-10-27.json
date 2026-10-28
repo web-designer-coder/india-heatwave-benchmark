@@ -1,0 +1,5710 @@
+{
+  "database": "Crossref REST API",
+  "search_date": "2026-10-27",
+  "queries": [
+    {
+      "query": "India heatwave prediction machine learning grid",
+      "returned": 30,
+      "results": [
+        {
+          "DOI": "10.1038/s41598-025-04634-9",
+          "title": [
+            "Comparative analysis of machine learning approaches for heatwave event prediction in India"
+          ],
+          "author": [
+            {
+              "given": "Ritesh Choudary",
+              "family": "V",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anita Christaline",
+              "family": "Johnvictor",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Prem Sankar",
+              "family": "N",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Reports"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1038/s41598-025-04634-9"
+        },
+        {
+          "DOI": "10.3390/eesp2025035001",
+          "title": [
+            "Heatwave-Related Mortality Prediction Using Machine Learning: Integrating Historical and Future Climate Data"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7406-9911",
+              "authenticated-orcid": false,
+              "given": "Ilias",
+              "family": "Petrou",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Physics, University of Ioannina, 45110 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Pavlos",
+              "family": "Kassomenos",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Physics, University of Ioannina, 45110 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "COMECAP 2025"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.3390/eesp2025035001"
+        },
+        {
+          "DOI": "10.5194/egusphere-2026-262",
+          "title": [
+            "An interpretable machine learning for marine heatwave prediction for the south China sea"
+          ],
+          "author": [
+            {
+              "given": "Peihao",
+              "family": "Yang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4222-1824",
+              "authenticated-orcid": false,
+              "given": "Guodong",
+              "family": "Ye",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "id": [
+                    {
+                      "id": "https://ror.org/0462wa640",
+                      "id-type": "ROR",
+                      "asserted-by": "publisher"
+                    }
+                  ],
+                  "name": "Guangdong Ocean University (Zhanjiang, China)"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                },
+                {
+                  "role": "corresponding-author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                30
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-2026-262"
+        },
+        {
+          "DOI": "10.1109/migars72065.2026.11688925",
+          "title": [
+            "LSTM-Based Prediction of Compound Drought – Heatwave Events in Madhya Pradesh, India"
+          ],
+          "author": [
+            {
+              "given": "Ranjitha",
+              "family": "R",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Amrita Vishwa Vidyapeetham",
+                  "place": [
+                    "Amritapuri, India"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dhanya",
+              "family": "M",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Amrita Vishwa Vidyapeetham",
+                  "place": [
+                    "Amritapuri, India"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "2026 International Conference on Machine Intelligence for GeoAnalytics and Remote Sensing (MIGARS)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/migars72065.2026.11688925"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v4/review1",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                30
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v4/review1"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v1/review2",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                3
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v1/review2"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v1/review1",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                6,
+                3
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v1/review1"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v2/review1",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                8,
+                4
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v2/review1"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v3/review1",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                21
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v3/review1"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v1/review3",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                11
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v1/review3"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v3/review2",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                15
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v3/review2"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v2/review2",
+          "title": [
+            "Review for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                8,
+                16
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v2/review2"
+        },
+        {
+          "DOI": "10.61336/jeeh/26-2-16",
+          "title": [
+            "Daily Price Prediction of Gold and Silver in India: Statistical and Machine Learning Approach"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                25
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of European Economic History"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.61336/jeeh/26-2-16"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v2/decision1",
+          "title": [
+            "Decision letter for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                12
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v2/decision1"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v1/decision1",
+          "title": [
+            "Decision letter for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                12
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v1/decision1"
+        },
+        {
+          "DOI": "10.36227/techrxiv.16863145",
+          "title": [
+            "A Comparative Analysis of Enhanced Machine Learning Algorithms for Smart Grid Stability Prediction"
+          ],
+          "author": [
+            {
+              "given": "ANKIT",
+              "family": "GHOSH",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "ALOK",
+              "family": "KOLE",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                26
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.36227/techrxiv.16863145"
+        },
+        {
+          "DOI": "10.36227/techrxiv.16863145.v1",
+          "title": [
+            "A Comparative Analysis of Enhanced Machine Learning Algorithms for Smart Grid Stability Prediction"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-3975-6222",
+              "authenticated-orcid": false,
+              "given": "ANKIT",
+              "family": "GHOSH",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "JADAVPUR UNIVERSITY"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "ALOK",
+              "family": "KOLE",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                26
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.36227/techrxiv.16863145.v1"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v3/decision1",
+          "title": [
+            "Decision letter for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                21
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v3/decision1"
+        },
+        {
+          "DOI": "10.1002/2050-7038.12706/v4/decision1",
+          "title": [
+            "Decision letter for \"Comparative analysis of machine learning algorithms for prediction of smart grid stability †\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                1
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1002/2050-7038.12706/v4/decision1"
+        },
+        {
+          "DOI": "10.2139/ssrn.7540432",
+          "title": [
+            "Heatwave Influence on Electric Grid Disturbances in Northwestern India under Changing Climate"
+          ],
+          "author": [
+            {
+              "given": "Arpit",
+              "family": "Patra",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1645-4093",
+              "authenticated-orcid": true,
+              "given": "Saran",
+              "family": "Aadhar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5455-6715",
+              "authenticated-orcid": true,
+              "given": "Ravi",
+              "family": "Yadav",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ashok  Kumar",
+              "family": "Pradhan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.7540432"
+        },
+        {
+          "DOI": "10.32388/kh6wbw",
+          "title": [
+            "Review of: \"FGSCare: A Feature-driven Grid Search-based Machine Learning Framework for Coronary Heart Disease Prediction\""
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-2154-3728",
+              "authenticated-orcid": true,
+              "given": "Milan",
+              "family": "Toma",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                21
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.32388/kh6wbw"
+        },
+        {
+          "DOI": "10.32388/mthy9u",
+          "title": [
+            "Review of: \"FGSCare: A Feature-driven Grid Search-based Machine Learning Framework for Coronary Heart Disease Prediction\""
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-9408-8397",
+              "authenticated-orcid": true,
+              "given": "Mudasir",
+              "family": "Kirmani",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                3
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.32388/mthy9u"
+        },
+        {
+          "DOI": "10.32388/papdag",
+          "title": [
+            "Review of: \"FGSCare: A Feature-driven Grid Search-based Machine Learning Framework for Coronary Heart Disease Prediction\""
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9885-7082",
+              "authenticated-orcid": true,
+              "given": "Eka",
+              "family": "Miranda",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                22
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.32388/papdag"
+        },
+        {
+          "DOI": "10.64672/ijifr/26.03.13.07.014",
+          "title": [
+            "A Comparative Evaluation of Regression-Based Machine Learning Models for Daily Maximum Temperature Prediction and Heatwave Assessment"
+          ],
+          "author": [
+            {
+              "family": "Sulochana Devi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "container-title": [
+            "International Journal Of Informative and Futuristic Research"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.64672/ijifr/26.03.13.07.014"
+        },
+        {
+          "DOI": "10.55640/ijidml-v02i02-01",
+          "title": [
+            "ADVANCING FINANCIAL PREDICTION THROUGH QUANTUM MACHINE LEARNING"
+          ],
+          "author": [
+            {
+              "name": "Department of Computer Science and Engineering, Indian Institute of Technology Bombay, India",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ananya (Ph.D. Candidate)",
+              "family": "Patel",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "International Journal of Intelligent Data and Machine Learning"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.55640/ijidml-v02i02-01"
+        },
+        {
+          "DOI": "10.47191/ijcsrr/v7-i9-37",
+          "title": [
+            "Grid Search Optimized Machine Learning based Modeling of CO2 Emissions Prediction from Cars for Sustainable Environment"
+          ],
+          "author": [
+            {
+              "name": "Principal Software Engineer, McKinsey & Company.",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sagar",
+              "family": "Sidana",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                19
+              ]
+            ]
+          },
+          "container-title": [
+            "International Journal of Current Science Research and Review"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.47191/ijcsrr/v7-i9-37"
+        },
+        {
+          "DOI": "10.2139/ssrn.4204478",
+          "title": [
+            "Effects of Heatwave Features on Machine-Learning-Based Heat-Related Ambulance Calls Prediction Models in Japan"
+          ],
+          "author": [
+            {
+              "given": "Deng",
+              "family": "Ke",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kiyoshi",
+              "family": "Takahashi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jun’ya",
+              "family": "Takakura",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kaoru",
+              "family": "Takara",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Bahareh",
+              "family": "Kamranzad",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "SSRN Electronic Journal"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.2139/ssrn.4204478"
+        },
+        {
+          "DOI": "10.1016/j.mlwa.2025.100740",
+          "title": [
+            "Enhanced prediction of karst spring discharge using a hybrid LSTM-XGBoost model optimized with grid search"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0003-1182-075X",
+              "authenticated-orcid": false,
+              "given": "Xiaomei",
+              "family": "Liu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Machine Learning with Applications"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.mlwa.2025.100740"
+        },
+        {
+          "DOI": "10.32388/ee1im7",
+          "title": [
+            "Review of: \"FGSCare: A Feature-driven Grid Search-based Machine Learning Framework for Coronary Heart Disease Prediction\""
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-3112-4909",
+              "authenticated-orcid": true,
+              "given": "A. K.",
+              "family": "Jaithunbi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                28
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.32388/ee1im7"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu26-16419",
+          "title": [
+            "Harnessing machine learning for quantifying and attributing compound heatwave changes in metropolis"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-4390-2114",
+              "authenticated-orcid": false,
+              "given": "Peng",
+              "family": "Ji",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                14
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu26-16419"
+        }
+      ]
+    },
+    {
+      "query": "Indian heatwave onset machine learning",
+      "returned": 30,
+      "results": [
+        {
+          "DOI": "10.66669/cineforum.v66is2.1106",
+          "title": [
+            "Machine Learning Integrated Mathematical Modeling of Heatwave-Related Mortality: an LSTM–Random Forest Hybrid Model for Urban Indian Cities"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "type": "edited-book",
+          "URL": "https://doi.org/10.66669/cineforum.v66is2.1106"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu21-1754",
+          "title": [
+            "Seasonal prediction of Indian Summer Monsoon onset with machine learning"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-2825-3996",
+              "authenticated-orcid": false,
+              "given": "Takahito",
+              "family": "Mitsui",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Niklas",
+              "family": "Boers",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                3
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu21-1754"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu26-16419",
+          "title": [
+            "Harnessing machine learning for quantifying and attributing compound heatwave changes in metropolis"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-4390-2114",
+              "authenticated-orcid": false,
+              "given": "Peng",
+              "family": "Ji",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                14
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu26-16419"
+        },
+        {
+          "DOI": "10.5220/0013516100004619",
+          "title": [
+            "Advanced Prediction of Diabetes Onset Using Machine Learning Techniques"
+          ],
+          "author": [
+            {
+              "given": "Shushen",
+              "family": "Wang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "School of Humanities and Social Sciences, Beijing Institute of Technology, Beijing, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 2nd International Conference on Data Analysis and Machine Learning"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.5220/0013516100004619"
+        },
+        {
+          "DOI": "10.3390/eesp2025035001",
+          "title": [
+            "Heatwave-Related Mortality Prediction Using Machine Learning: Integrating Historical and Future Climate Data"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7406-9911",
+              "authenticated-orcid": false,
+              "given": "Ilias",
+              "family": "Petrou",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Physics, University of Ioannina, 45110 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Pavlos",
+              "family": "Kassomenos",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Physics, University of Ioannina, 45110 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "COMECAP 2025"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.3390/eesp2025035001"
+        },
+        {
+          "DOI": "10.24906/isc/2023/v37/i1/222807",
+          "title": [
+            "Detection of Schizophrenia at the Onset from EEG Signal - A Machine Learning Based Approach"
+          ],
+          "author": [
+            {
+              "given": "Angshuman",
+              "family": "Sarkar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shambo Saurav",
+              "family": "Mallik",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                9
+              ]
+            ]
+          },
+          "container-title": [
+            "Indian Science Cruiser"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.24906/isc/2023/v37/i1/222807"
+        },
+        {
+          "DOI": "10.1371/journal.pone.0206872",
+          "title": [
+            "Defining heatwave thresholds using an inductive machine learning approach"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9562-5454",
+              "authenticated-orcid": true,
+              "given": "Juhyeon",
+              "family": "Park",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9578-3348",
+              "authenticated-orcid": true,
+              "given": "Jeongseob",
+              "family": "Kim",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                11,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "PLOS ONE"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1371/journal.pone.0206872"
+        },
+        {
+          "DOI": "10.5194/egusphere-2026-262",
+          "title": [
+            "An interpretable machine learning for marine heatwave prediction for the south China sea"
+          ],
+          "author": [
+            {
+              "given": "Peihao",
+              "family": "Yang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4222-1824",
+              "authenticated-orcid": false,
+              "given": "Guodong",
+              "family": "Ye",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "id": [
+                    {
+                      "id": "https://ror.org/0462wa640",
+                      "id-type": "ROR",
+                      "asserted-by": "publisher"
+                    }
+                  ],
+                  "name": "Guangdong Ocean University (Zhanjiang, China)"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                },
+                {
+                  "role": "corresponding-author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                30
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-2026-262"
+        },
+        {
+          "DOI": "10.1029/2026jh001380",
+          "title": [
+            "Global Subseasonal‐to‐Seasonal Marine Heatwave Forecasts Boosted by Explainable Deep Learning"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0006-6168-0873",
+              "authenticated-orcid": false,
+              "given": "Minghui",
+              "family": "Guo",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "China‐Sri Lanka Belt and Road Joint Laboratory on Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China"
+                },
+                {
+                  "name": "Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China"
+                },
+                {
+                  "name": "University of Chinese Academy of Sciences  Beijing China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3149-6005",
+              "authenticated-orcid": false,
+              "given": "Kang",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "China‐Sri Lanka Belt and Road Joint Laboratory on Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China"
+                },
+                {
+                  "name": "Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8523-6666",
+              "authenticated-orcid": false,
+              "given": "Lei",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "State Key Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2146-4210",
+              "authenticated-orcid": false,
+              "given": "Weiqiang",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "China‐Sri Lanka Belt and Road Joint Laboratory on Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China"
+                },
+                {
+                  "name": "Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Geophysical Research: Machine Learning and Computation"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1029/2026jh001380"
+        },
+        {
+          "DOI": "10.3390/atmos16091093",
+          "title": [
+            "Assessing Future Heatwave-Related Mortality in Greece Using Advanced Machine Learning and Climate Projections"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7406-9911",
+              "authenticated-orcid": false,
+              "given": "Ilias",
+              "family": "Petrou",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Physics, University of Ioannina, 45110 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Pavlos",
+              "family": "Kassomenos",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Physics, University of Ioannina, 45110 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0005-4668-3083",
+              "authenticated-orcid": false,
+              "given": "Nikolaos",
+              "family": "Kyriazis",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Physics, University of Ioannina, 45110 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "Atmosphere"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3390/atmos16091093"
+        },
+        {
+          "DOI": "10.1007/s00382-025-07817-2",
+          "title": [
+            "Unveiling summer marine heatwave onset mechanisms in the South China sea using an explainable deep learning method"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0006-6168-0873",
+              "authenticated-orcid": false,
+              "given": "Minghui",
+              "family": "Guo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3149-6005",
+              "authenticated-orcid": false,
+              "given": "Kang",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2146-4210",
+              "authenticated-orcid": false,
+              "given": "Weiqiang",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Climate Dynamics"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1007/s00382-025-07817-2"
+        },
+        {
+          "DOI": "10.1016/j.mlwa.2022.100367",
+          "title": [
+            "Machine learning approaches for predicting the onset time of the adverse drug events in oncology"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-3886-9898",
+              "authenticated-orcid": false,
+              "given": "Mohan",
+              "family": "Timilsina",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Meera",
+              "family": "Tandan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Vít",
+              "family": "Nováček",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                9
+              ]
+            ]
+          },
+          "container-title": [
+            "Machine Learning with Applications"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.mlwa.2022.100367"
+        },
+        {
+          "DOI": "10.1002/9781119792611.ch9",
+          "title": [
+            "Detection of Onset and Progression of Osteoporosis Using Machine Learning"
+          ],
+          "author": [
+            {
+              "given": "Shilpi Ruchi",
+              "family": "Kerketta",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Debalina",
+              "family": "Ghosh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Machine Learning for Healthcare Applications"
+          ],
+          "type": "other",
+          "URL": "https://doi.org/10.1002/9781119792611.ch9"
+        },
+        {
+          "DOI": "10.1021/acs.energyfuels.2c03319.s001",
+          "title": [
+            "Integrated Machine Learning Model for Predicting Asphaltene Damage Risk and the Asphaltene Onset Pressure"
+          ],
+          "type": "component",
+          "URL": "https://doi.org/10.1021/acs.energyfuels.2c03319.s001"
+        },
+        {
+          "DOI": "10.7249/rgsd431",
+          "title": [
+            "Indian Summer: Three Essays on Heatwave Vulnerability, Estimation and Adaptation"
+          ],
+          "author": [
+            {
+              "given": "Gulrez",
+              "family": "Azhar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019
+              ]
+            ]
+          },
+          "type": "edited-book",
+          "URL": "https://doi.org/10.7249/rgsd431"
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-5267311/v1",
+          "title": [
+            "Seasonal Heatwave Forecasting with Explainable Machine Learning and Remote Sensing Data"
+          ],
+          "author": [
+            {
+              "given": "Jung-Ching",
+              "family": "Kan",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "KTH Royal Institute of Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Marlon Vieira",
+              "family": "Passos",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "KTH Royal Institute of Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Georgia",
+              "family": "Destouni",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stockholm University"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Karina",
+              "family": "Barquet",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stockholm Environment Institute (SEI)"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Carla S.S.",
+              "family": "Ferreira",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Polytechnic Institute of Coimbra, Applied Research Institute"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zahra",
+              "family": "Kalantari",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "KTH Royal Institute of Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                28
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.21203/rs.3.rs-5267311/v1"
+        },
+        {
+          "DOI": "10.1016/j.isci.2026.116545",
+          "title": [
+            "Investigating LST evolution and heatwave patterns using machine learning in the Beijing-Tianjin-Hebei Urban agglomeration"
+          ],
+          "author": [
+            {
+              "given": "Chen",
+              "family": "Liu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8075-7967",
+              "authenticated-orcid": false,
+              "given": "Maomao",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "iScience"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.isci.2026.116545"
+        },
+        {
+          "DOI": "10.1038/s41598-025-04634-9",
+          "title": [
+            "Comparative analysis of machine learning approaches for heatwave event prediction in India"
+          ],
+          "author": [
+            {
+              "given": "Ritesh Choudary",
+              "family": "V",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anita Christaline",
+              "family": "Johnvictor",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Prem Sankar",
+              "family": "N",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Reports"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1038/s41598-025-04634-9"
+        },
+        {
+          "DOI": "10.3390/rs15143627",
+          "title": [
+            "Spatiotemporal Variations of Global Human-Perceived Heatwave Risks and their Driving Factors Based on Machine Learning"
+          ],
+          "author": [
+            {
+              "given": "Yuwei",
+              "family": "Wang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "State Key Laboratory of Resources and Environmental Information System, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing 100101, China"
+                },
+                {
+                  "name": "College of Resources and Environment, University of Chinese Academy of Sciences, Beijing 101408, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4434-1726",
+              "authenticated-orcid": false,
+              "given": "Na",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "State Key Laboratory of Resources and Environmental Information System, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing 100101, China"
+                },
+                {
+                  "name": "College of Resources and Environment, University of Chinese Academy of Sciences, Beijing 101408, China"
+                },
+                {
+                  "name": "Jiangsu Center for Collaborative Innovation in Geographic Information Resource Development and Application, Nanjing 210023, China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                21
+              ]
+            ]
+          },
+          "container-title": [
+            "Remote Sensing"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3390/rs15143627"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu25-1083",
+          "title": [
+            "Identifying Spatially Coherent Marine Heatwave Patterns in the North Indian Ocean"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-3523-5822",
+              "authenticated-orcid": false,
+              "given": "Avinash",
+              "family": "Paul",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                15
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu25-1083"
+        },
+        {
+          "DOI": "10.1017/eds.2026.10033.pr2",
+          "title": [
+            "Review: Skillful subseasonal Indian Ocean marine heatwave forecasts using a neural network — R0/PR2"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                7
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2026.10033.pr2"
+        },
+        {
+          "DOI": "10.1017/eds.2026.10033.pr7",
+          "title": [
+            "Review: Skillful subseasonal Indian Ocean marine heatwave forecasts using a neural network — R1/PR7"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                30
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2026.10033.pr7"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu22-9751",
+          "title": [
+            "The subseasonal to seasoanl predictability of marine heatwave in Indian Ocean"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-1788-7261",
+              "authenticated-orcid": false,
+              "given": "Yue",
+              "family": "Yu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                28
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu22-9751"
+        },
+        {
+          "DOI": "10.1017/eds.2026.10033.pr3",
+          "title": [
+            "Review: Skillful subseasonal Indian Ocean marine heatwave forecasts using a neural network — R0/PR3"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                17
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2026.10033.pr3"
+        },
+        {
+          "DOI": "10.1177/10732748251363687/v1/review1",
+          "title": [
+            "Review for \"Racial Disparities in Comorbidity Patterns of Early-Onset Liver Cancer: A Machine Learning Analysis\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                19
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1177/10732748251363687/v1/review1"
+        },
+        {
+          "DOI": "10.1177/10732748251363687/v3/review1",
+          "title": [
+            "Review for \"Racial Disparities in Comorbidity Patterns of Early-Onset Liver Cancer: A Machine Learning Analysis\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                23
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1177/10732748251363687/v3/review1"
+        },
+        {
+          "DOI": "10.1177/10732748251363687/v2/review2",
+          "title": [
+            "Review for \"Racial Disparities in Comorbidity Patterns of Early-Onset Liver Cancer: A Machine Learning Analysis\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1177/10732748251363687/v2/review2"
+        },
+        {
+          "DOI": "10.1177/10732748251363687/v1/review2",
+          "title": [
+            "Review for \"Racial Disparities in Comorbidity Patterns of Early-Onset Liver Cancer: A Machine Learning Analysis\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                7
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1177/10732748251363687/v1/review2"
+        },
+        {
+          "DOI": "10.1177/10732748251363687/v2/review1",
+          "title": [
+            "Review for \"Racial Disparities in Comorbidity Patterns of Early-Onset Liver Cancer: A Machine Learning Analysis\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                15
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1177/10732748251363687/v2/review1"
+        },
+        {
+          "DOI": "10.1017/eds.2026.10033.pr4",
+          "title": [
+            "Recommendation: Skillful subseasonal Indian Ocean marine heatwave forecasts using a neural network — R0/PR4"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                21
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2026.10033.pr4"
+        }
+      ]
+    },
+    {
+      "query": "India heatwave forecast spatial validation grid cell",
+      "returned": 30,
+      "results": [
+        {
+          "DOI": "10.5194/egusphere-egu26-764",
+          "title": [
+            "Spatial Shift of Heatwave Hotspots in India: Unraveling the Roles of Aerosols"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-0142-5994",
+              "authenticated-orcid": false,
+              "given": "Shravani",
+              "family": "banerjee",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Burrala",
+              "family": "Padmakumari",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                13
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu26-764"
+        },
+        {
+          "DOI": "10.2139/ssrn.7540432",
+          "title": [
+            "Heatwave Influence on Electric Grid Disturbances in Northwestern India under Changing Climate"
+          ],
+          "author": [
+            {
+              "given": "Arpit",
+              "family": "Patra",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1645-4093",
+              "authenticated-orcid": true,
+              "given": "Saran",
+              "family": "Aadhar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5455-6715",
+              "authenticated-orcid": true,
+              "given": "Ravi",
+              "family": "Yadav",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ashok  Kumar",
+              "family": "Pradhan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.7540432"
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-4470200/v1",
+          "title": [
+            "Assessment of heatwave vulnerability index and its spatial distribution over Uttar Pradesh, India"
+          ],
+          "author": [
+            {
+              "given": "Shashank",
+              "family": "Pandey",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Institute of Engineering and Technology Lucknow"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Asit",
+              "family": "Singh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Engineering and Technology Lucknow"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Amarendra",
+              "family": "Singh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Indian Institute of Technology Delhi"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Prabhat Kumar",
+              "family": "Patel",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Engineering and Technology Lucknow"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                13
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.21203/rs.3.rs-4470200/v1"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu25-772",
+          "title": [
+            "Dynamical Diagnostics of the Prolonged May-June 2024 Heatwave Over India: Evaluation and Validation using IMD’s GFS Model. "
+          ],
+          "author": [
+            {
+              "given": "Hemadri Bhusan",
+              "family": "Amat",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Nitin",
+              "family": "Lohan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Dushmanta Ranjan",
+              "family": "Pattanaik",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu25-772"
+        },
+        {
+          "DOI": "10.1016/j.hydroa.2026.100221",
+          "title": [
+            "Improving subseasonal-to-seasonal heatwave forecast skill in India through adaptive and aggregated intelligence"
+          ],
+          "author": [
+            {
+              "given": "Venkatesh",
+              "family": "Budamala",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rajib",
+              "family": "Chattopadhyay",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ashish",
+              "family": "Sharma",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rajarshi Das",
+              "family": "Bhowmik",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Hydrology X"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.hydroa.2026.100221"
+        },
+        {
+          "DOI": "10.37099/mtu.dc.etdr/2160",
+          "title": [
+            "BEYOND RECEPTIVE MEASURES: DEVELOPMENT AND VALIDATION OF THE SPATIAL GRID DRAWING ASSESSMENT (SGDA) AS A PRODUCTIVE MEASURE OF SPATIAL SKILL"
+          ],
+          "author": [
+            {
+              "given": "Katrina L.",
+              "family": "Carlson",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "type": "dissertation",
+          "URL": "https://doi.org/10.37099/mtu.dc.etdr/2160"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu26-5602",
+          "title": [
+            "Development of Forecast and Alert Logic for Extended-Range Heatwave Early Warning"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-3066-5452",
+              "authenticated-orcid": false,
+              "given": "Natalia",
+              "family": "Korhonen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hilppa",
+              "family": "Gregow",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                13
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu26-5602"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu22-5907",
+          "title": [
+            "Effects of Spatial Grid Resolution on the Statistical Power of Testing Earthquake Forecast Models"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-6196-4503",
+              "authenticated-orcid": false,
+              "given": "Muhammad Asim",
+              "family": "Khawaja",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2875-0933",
+              "authenticated-orcid": false,
+              "given": "Sebastian",
+              "family": "Hainzl",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Pablo",
+              "family": "Iturrieta",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Danijel",
+              "family": "Schorlemmer",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                27
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu22-5907"
+        },
+        {
+          "DOI": "10.22499/4.0016",
+          "title": [
+            "Extending the Bureau's heatwave forecast to multi-week timescales"
+          ],
+          "author": [
+            {
+              "given": "Debra",
+              "family": "Hudson",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Andrew",
+              "family": "Marshall",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "container-title": [
+            "Bureau Research Report"
+          ],
+          "type": "report",
+          "URL": "https://doi.org/10.22499/4.0016"
+        },
+        {
+          "DOI": "10.1080/07055900.1990.9649388",
+          "title": [
+            "Validation experiments for a nested grid‐point regional forecast model: Research note"
+          ],
+          "author": [
+            {
+              "given": "E.",
+              "family": "Yakimiw",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "A.",
+              "family": "Robert",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1990,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Atmosphere-Ocean"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1080/07055900.1990.9649388"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu21-5731",
+          "title": [
+            "Forecast-based attribution of a winter heatwave within the limit of predictability"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-4470-1813",
+              "authenticated-orcid": false,
+              "given": "Nicholas",
+              "family": "Leach",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7231-6974",
+              "authenticated-orcid": false,
+              "given": "Antje",
+              "family": "Weisheimer",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Myles",
+              "family": "Allen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Timothy",
+              "family": "Palmer",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                4
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu21-5731"
+        },
+        {
+          "DOI": "10.1038/s41598-026-38289-x",
+          "title": [
+            "Intensification and spatial shifts of heatwave hotspot across India under climate and ENSO influences with health risk assessment"
+          ],
+          "author": [
+            {
+              "given": "Shravani",
+              "family": "Banerjee",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "B.",
+              "family": "Padmakumari",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M. V.",
+              "family": "Ramana",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Reports"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1038/s41598-026-38289-x"
+        },
+        {
+          "DOI": "10.1109/ingarss59135.2023.10490432",
+          "title": [
+            "Impact of Jet Stream Features on Forecast of Burned Areas in India Using Machine Learning During The South Asian Heatwave of 2022"
+          ],
+          "author": [
+            {
+              "given": "Amir Mustofa",
+              "family": "Irawan",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Universitat Polit&#x00E8;cnica de Catalunya (UPC),Department of Signal Theory and Communications,Barcelona,Spain,08034"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mercè",
+              "family": "Vall-Llossera",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institut d&#x2019;Estudis Espacials de Catalunya IEEC,Barcelona,Spain,08034"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Carlos",
+              "family": "López-Martínez",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institut d&#x2019;Estudis Espacials de Catalunya IEEC,Barcelona,Spain,08034"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Adriano",
+              "family": "Camps",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "UAE University CoE,ASPIRE Visiting International,Al Ain,UAE,15551"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "David",
+              "family": "Chaparro",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Microwaves and Radar Institute s German Aerospace Center,M&#x00FC;nchener Strasse 20, 82234 Wessling,Germany"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Gerard",
+              "family": "Portal",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Universitat Polit&#x00E8;cnica de Catalunya (UPC),Department of Signal Theory and Communications,Barcelona,Spain,08034"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Miriam",
+              "family": "Pablos",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Universitat Polit&#x00E8;cnica de Catalunya (UPC),Department of Signal Theory and Communications,Barcelona,Spain,08034"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Alberto",
+              "family": "Alonso-González",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Universitat Polit&#x00E8;cnica de Catalunya (UPC),Department of Signal Theory and Communications,Barcelona,Spain,08034"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "2023 IEEE India Geoscience and Remote Sensing Symposium (InGARSS)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/ingarss59135.2023.10490432"
+        },
+        {
+          "DOI": "10.2139/ssrn.6028416",
+          "title": [
+            "Predicting Heatwave Vulnerability Using Spatial Analytics and Demographic Data"
+          ],
+          "author": [
+            {
+              "given": "Adekola",
+              "family": "Kamaldeen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.6028416"
+        },
+        {
+          "DOI": "10.1088/1748-9326/adbcc8/v1/review2",
+          "title": [
+            "Review for \"Identifying vulnerability factors associated with heatwave mortality: A spatial statistical analysis across Europe\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                22
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1088/1748-9326/adbcc8/v1/review2"
+        },
+        {
+          "DOI": "10.1088/1748-9326/adbcc8/v1/review3",
+          "title": [
+            "Review for \"Identifying vulnerability factors associated with heatwave mortality: A spatial statistical analysis across Europe\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                23
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1088/1748-9326/adbcc8/v1/review3"
+        },
+        {
+          "DOI": "10.2139/ssrn.5583691",
+          "title": [
+            "Unsupervised PCA Framework for Heatwave Vulnerability with Perturbation-Based Robustness Validation"
+          ],
+          "author": [
+            {
+              "given": "Tianle",
+              "family": "Liang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Prabanjan",
+              "family": "Jayachandran",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.2139/ssrn.5583691"
+        },
+        {
+          "DOI": "10.3389/fclim.2022.789641",
+          "title": [
+            "Deep Learning-Based Extreme Heatwave Forecast"
+          ],
+          "author": [
+            {
+              "given": "Valérian",
+              "family": "Jacques-Dumas",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Francesco",
+              "family": "Ragone",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Pierre",
+              "family": "Borgnat",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Patrice",
+              "family": "Abry",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Freddy",
+              "family": "Bouchet",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                2,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Frontiers in Climate"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3389/fclim.2022.789641"
+        },
+        {
+          "DOI": "10.7717/peerj.13573/fig-3",
+          "title": [
+            "Figure 3: Map of the study area, overlaid with a grid of 30 km tiles that was used for spatial 5-fold cross-validation."
+          ],
+          "type": "component",
+          "URL": "https://doi.org/10.7717/peerj.13573/fig-3"
+        },
+        {
+          "DOI": "10.1088/1748-9326/adbcc8/v2/review1",
+          "title": [
+            "Review for \"Identifying vulnerability factors associated with heatwave mortality: A spatial statistical analysis across Europe\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                7
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1088/1748-9326/adbcc8/v2/review1"
+        },
+        {
+          "DOI": "10.1088/1748-9326/adbcc8/v1/review1",
+          "title": [
+            "Review for \"Identifying vulnerability factors associated with heatwave mortality: A spatial statistical analysis across Europe\""
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                22
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1088/1748-9326/adbcc8/v1/review1"
+        },
+        {
+          "DOI": "10.1088/1748-9326/ad4616",
+          "title": [
+            "Deep learning improves sub-seasonal marine heatwave forecast"
+          ],
+          "author": [
+            {
+              "given": "Di",
+              "family": "Sun",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Zhao",
+              "family": "Jing",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Hailong",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                24
+              ]
+            ]
+          },
+          "container-title": [
+            "Environmental Research Letters"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1088/1748-9326/ad4616"
+        },
+        {
+          "DOI": "10.22541/essoar.170593851.11943124/v1",
+          "title": [
+            "Probabilistic Post-processing of Temperature Forecasts for Heatwave Predictions in India"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-4071-3753",
+              "authenticated-orcid": false,
+              "given": "Sakila",
+              "family": "Saminathan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4095-2279",
+              "authenticated-orcid": false,
+              "given": "Subhasis",
+              "family": "Mitra",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                22
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.22541/essoar.170593851.11943124/v1"
+        },
+        {
+          "DOI": "10.7554/elife.38169.022",
+          "title": [
+            "Decision letter: Environmental deformations dynamically shift the grid cell spatial metric"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                1
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.7554/elife.38169.022"
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-7374786/v1",
+          "title": [
+            "Urban Heatwave Resilience and Spatial Drivers: A 20-Year Geo-Spatial Analysis in Chengdu, China"
+          ],
+          "author": [
+            {
+              "given": "shichen",
+              "family": "fan",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Southwest Petroleum University"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "hongyong",
+              "family": "liu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Southwest Petroleum University"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Zhihui",
+              "family": "lai",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Southwestern University of Finance and Economics"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "yi",
+              "family": "xu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Southwest University of Science and Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                5
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.21203/rs.3.rs-7374786/v1"
+        },
+        {
+          "DOI": "10.1136/bmj.q1198",
+          "title": [
+            "India heatwave: Delhi records its highest ever temperature"
+          ],
+          "author": [
+            {
+              "given": "Mun-Keat",
+              "family": "Looi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "BMJ"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1136/bmj.q1198"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu24-17545",
+          "title": [
+            "Development of a deep learning based system for heatwave detection using seasonal forecast data"
+          ],
+          "author": [
+            {
+              "given": "Fatemeh",
+              "family": "Heidari",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3725-2036",
+              "authenticated-orcid": false,
+              "given": "Qing",
+              "family": "lin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yanet",
+              "family": "Díaz Esteban",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Edgar",
+              "family": "Espitia Sarmiento1",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2745-2467",
+              "authenticated-orcid": false,
+              "given": "Elena",
+              "family": "Xoplaki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                20
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu24-17545"
+        },
+        {
+          "DOI": "10.3390/info13120577",
+          "title": [
+            "SWAR: A Deep Multi-Model Ensemble Forecast Method with Spatial Grid and 2-D Time Structure Adaptability for Sea Level Pressure"
+          ],
+          "author": [
+            {
+              "given": "Jingyun",
+              "family": "Zhang",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Engineering and Science, Shanghai University, Shanghai 200444, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Lingyu",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Engineering and Science, Shanghai University, Shanghai 200444, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Baogang",
+              "family": "Jin",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beijing Institute of Applied Meteorology, Beijing 100029, China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Information"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3390/info13120577"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu26-3815",
+          "title": [
+            "The June 2024 Middle East compound heatwave: Dynamical drivers and AI-weather forecast models’ evaluation"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-0066-6040",
+              "authenticated-orcid": false,
+              "given": "Narendra",
+              "family": "Nelli",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Diana",
+              "family": "Francis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8562-7368",
+              "authenticated-orcid": false,
+              "given": "Ricardo",
+              "family": "Fonseca",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-9425-8085",
+              "authenticated-orcid": false,
+              "given": "Pedram",
+              "family": "Hassanzadeh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5298-8490",
+              "authenticated-orcid": false,
+              "given": "Charfeddine",
+              "family": "Cherif",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hosni",
+              "family": "Ghedira",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                13
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu26-3815"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu25-12269",
+          "title": [
+            "An Application of CNN-based Downscaling of Seasonal Forecast Temperature Data in European Metropolitan Areas for Heatwave Detection"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-3725-2036",
+              "authenticated-orcid": false,
+              "given": "Qing",
+              "family": "Lin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yanet",
+              "family": "Díaz Esteban",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Fatemeh",
+              "family": "Heidari",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2745-2467",
+              "authenticated-orcid": false,
+              "given": "Elena",
+              "family": "Xoplaki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                18
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu25-12269"
+        }
+      ]
+    },
+    {
+      "query": "IMD gridded heatwave event probability prediction India",
+      "returned": 30,
+      "results": [
+        {
+          "DOI": "10.32438/wpe.262021",
+          "title": [
+            "Comparison of gridded temperature dataset of IMD and Sheffield over India"
+          ],
+          "author": [
+            {
+              "given": "Anurag",
+              "family": "Sharma",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Deepak",
+              "family": "Swami",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Nitin",
+              "family": "Joshi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                13
+              ]
+            ]
+          },
+          "container-title": [
+            "WEENTECH Proceedings in Energy"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.32438/wpe.262021"
+        },
+        {
+          "DOI": "10.3390/su15075758",
+          "title": [
+            "A Comparison and Ranking Study of Monthly Average Rainfall Datasets with IMD Gridded Data in India"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7334-8919",
+              "authenticated-orcid": false,
+              "given": "Vasala",
+              "family": "Saicharan",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Water Resources and Ocean Engineering, National Institute of Technology Karnataka, Surathkal 575025, India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1199-8550",
+              "authenticated-orcid": false,
+              "given": "Shwetha Hassan",
+              "family": "Rangaswamy",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Water Resources and Ocean Engineering, National Institute of Technology Karnataka, Surathkal 575025, India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                25
+              ]
+            ]
+          },
+          "container-title": [
+            "Sustainability"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3390/su15075758"
+        },
+        {
+          "DOI": "10.1038/s41598-025-04634-9",
+          "title": [
+            "Comparative analysis of machine learning approaches for heatwave event prediction in India"
+          ],
+          "author": [
+            {
+              "given": "Ritesh Choudary",
+              "family": "V",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anita Christaline",
+              "family": "Johnvictor",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Prem Sankar",
+              "family": "N",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Reports"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1038/s41598-025-04634-9"
+        },
+        {
+          "DOI": "10.1017/eds.2024.39.pr2",
+          "title": [
+            "Review: Deep learning based bias correction of TRMM precipitation estimates using IMD-gridded precipitation as ground observation — R0/PR2"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                28
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2024.39.pr2"
+        },
+        {
+          "DOI": "10.1038/s41597-025-06251-7",
+          "title": [
+            "Marine Heatwave Event Maps in the Baltic Sea (1982–2023): A Gridded Dataset from Satellite-Derived L4 SST"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0002-0600-5390",
+              "authenticated-orcid": false,
+              "given": "Behzad",
+              "family": "Bashiri",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Amirhossein",
+              "family": "Barzandeh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Aarne",
+              "family": "Männik",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rivo",
+              "family": "Uiboupin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Urmas",
+              "family": "Raudsepp",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "Scientific Data"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1038/s41597-025-06251-7"
+        },
+        {
+          "DOI": "10.32614/cran.package.imdr",
+          "title": [
+            "imdR: Download, Process and Visualize IMD Gridded Meteorological Data"
+          ],
+          "author": [
+            {
+              "given": "Subhradip",
+              "family": "Bhattacharjee",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Basavareddy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Amitava",
+              "family": "Panja",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ankita",
+              "family": "Chakraborty",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                23
+              ]
+            ]
+          },
+          "container-title": [
+            "CRAN: Contributed Packages"
+          ],
+          "type": "dataset",
+          "URL": "https://doi.org/10.32614/cran.package.imdr"
+        },
+        {
+          "DOI": "10.5220/0012528900003808",
+          "title": [
+            "Data Collection, Pre-Processing, and Visualization of IMD Gridded Climate Data for Spatio-Temporal Exploratory Analysis"
+          ],
+          "author": [
+            {
+              "given": "Chandrika",
+              "family": "M.",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of MCA, Dayananda Sagar College of Engineering, Bangalore, India, --- Select a Country ---"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Samitha",
+              "family": "Khaiyum",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of MCA, Dayananda Sagar College of Engineering, Bangalore, India, --- Select a Country ---"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 1st International Conference on Intelligent and Sustainable Power and Energy Systems"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.5220/0012528900003808"
+        },
+        {
+          "DOI": "10.1017/eds.2024.39.pr4",
+          "title": [
+            "Decision: Deep learning based bias correction of TRMM precipitation estimates using IMD-gridded precipitation as ground observation — R0/PR4"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                28
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2024.39.pr4"
+        },
+        {
+          "DOI": "10.5772/intechopen.84999",
+          "title": [
+            "Validation of Satellite (TMPA and IMERG) Rainfall Products with the IMD Gridded Data Sets over Monsoon Core Region of India"
+          ],
+          "author": [
+            {
+              "given": "Tumuluru",
+              "family": "Venkata Lakshmi Kumar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Humberto",
+              "family": "Alves Barbosa",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Manoj",
+              "family": "Kumar Thakur",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Franklin",
+              "family": "Paredes-Trejo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                5,
+                29
+              ]
+            ]
+          },
+          "container-title": [
+            "Satellite Information Classification and Interpretation"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.5772/intechopen.84999"
+        },
+        {
+          "DOI": "10.1017/eds.2024.39.pr3",
+          "title": [
+            "Recommendation: Deep learning based bias correction of TRMM precipitation estimates using IMD-gridded precipitation as ground observation — R0/PR3"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                28
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2024.39.pr3"
+        },
+        {
+          "DOI": "10.1007/s12524-018-0751-9",
+          "title": [
+            "A Case Study: Heavy Rainfall Event Comparison Between Daily Satellite Rainfall Estimation Products with IMD Gridded Rainfall Over Peninsular India During 2015 Winter Monsoon"
+          ],
+          "author": [
+            {
+              "given": "Anil Kumar",
+              "family": "Singh",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Virendra",
+              "family": "Singh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "K. K.",
+              "family": "Singh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jayant Nath",
+              "family": "Tripathi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Amit",
+              "family": "Kumar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anil Kumar",
+              "family": "Soni",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M.",
+              "family": "Sateesh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Chinmay",
+              "family": "Khadke",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                2,
+                23
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of the Indian Society of Remote Sensing"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1007/s12524-018-0751-9"
+        },
+        {
+          "DOI": "10.1017/eds.2024.39.pr1",
+          "title": [
+            "Author comment: Deep learning based bias correction of TRMM precipitation estimates using IMD-gridded precipitation as ground observation — R0/PR1"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7075-5404",
+              "authenticated-orcid": false,
+              "given": "Sumanta Chandra",
+              "family": "Mishra Sharma",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                25
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "URL": "https://doi.org/10.1017/eds.2024.39.pr1"
+        },
+        {
+          "DOI": "10.1029/2019ea000910",
+          "title": [
+            "Validation of Surface Temperature Derived From MERRA‐2 Reanalysis Against IMD Gridded Data Set Over India"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9533-4796",
+              "authenticated-orcid": false,
+              "given": "Priyanshu",
+              "family": "Gupta",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Institute of Environment and Sustainable Development Banaras Hindu University  Varanasi India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5514-6360",
+              "authenticated-orcid": false,
+              "given": "Sunita",
+              "family": "Verma",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Environment and Sustainable Development Banaras Hindu University  Varanasi India"
+                },
+                {
+                  "name": "DST‐Mahamana Centre of Excellence in Climate Change Research Banaras Hindu University  Varanasi India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "R.",
+              "family": "Bhatla",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "DST‐Mahamana Centre of Excellence in Climate Change Research Banaras Hindu University  Varanasi India"
+                },
+                {
+                  "name": "Department of Geophysics Banaras Hindu University  Varanasi India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5732-4725",
+              "authenticated-orcid": false,
+              "given": "Amit Singh",
+              "family": "Chandel",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Center of Environmental Sciences University of Allahabad  Prayagraj India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6469-8784",
+              "authenticated-orcid": false,
+              "given": "Janhavi",
+              "family": "Singh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute of Environment and Sustainable Development Banaras Hindu University  Varanasi India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2398-4658",
+              "authenticated-orcid": false,
+              "given": "Swagata",
+              "family": "Payra",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Physics Birla Institute of Technology Mesra  Extension Centre Jaipur India"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Earth and Space Science"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1029/2019ea000910"
+        },
+        {
+          "DOI": "10.1007/s00382-024-07541-3",
+          "title": [
+            "Sensitivity of initial soil moisture in simulating a heatwave event over India"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0008-2709-5253",
+              "authenticated-orcid": false,
+              "given": "Amal",
+              "family": "Joy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "K.",
+              "family": "Satheesan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "Climate Dynamics"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1007/s00382-024-07541-3"
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-2928629/v1",
+          "title": [
+            "Challenging the Universality of Heatwave Definitions: Gridded temperature discrepancies across climate regions"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-7645-5720",
+              "authenticated-orcid": false,
+              "given": "Erin Coughlan",
+              "family": "de Perez",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Tufts University Friedman School of Nutrition Science and Policy"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Julie",
+              "family": "Arrighi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Red Cross Red Crescent Climate Centre"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Joalane",
+              "family": "Marunye",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "National University of Lesotho"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                30
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.21203/rs.3.rs-2928629/v1"
+        },
+        {
+          "DOI": "10.1007/978-3-030-64202-0_6",
+          "title": [
+            "Spatio-Temporal Trend Analysis of Long-Term IMD-Gridded Precipitation in Godavari River Basin, India"
+          ],
+          "author": [
+            {
+              "given": "C. H.",
+              "family": "Praveenkumar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "V.",
+              "family": "Jothiprakash",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "container-title": [
+            "Water Science and Technology Library",
+            "Climate Change Impacts on Water Resources"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-64202-0_6"
+        },
+        {
+          "DOI": "10.5194/egusphere-egu2020-750",
+          "title": [
+            "Extended-range prediction of  heatwave events over North India: role of atmospheric blocking over North Atlantic"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-4128-0814",
+              "authenticated-orcid": false,
+              "given": "Arulalan",
+              "family": "Thanigachalam",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Krishna",
+              "family": "AchutaRao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ashis K",
+              "family": "Mitra",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1983-8378",
+              "authenticated-orcid": false,
+              "given": "Raghavendra",
+              "family": "Ashrit",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ankur",
+              "family": "Gupta",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                3,
+                23
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.5194/egusphere-egu2020-750"
+        },
+        {
+          "DOI": "10.1017/eds.2024.39",
+          "title": [
+            "Deep learning based bias correction of TRMM precipitation estimates using IMD-gridded precipitation as ground observation"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7075-5404",
+              "authenticated-orcid": false,
+              "given": "Sumanta Chandra",
+              "family": "Mishra Sharma",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Adway",
+              "family": "Mitra",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "container-title": [
+            "Environmental Data Science"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1017/eds.2024.39"
+        },
+        {
+          "DOI": "10.1109/cso.2014.124",
+          "title": [
+            "Improving the Accuracy of Destructive Earthquake Prediction by Transforming the Small Probability Event to Conditional Probability Event"
+          ],
+          "author": [
+            {
+              "given": "Ying",
+              "family": "Wu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Qi",
+              "family": "Zheng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ruina",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Chuntao",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jingyi",
+              "family": "Sun",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "2014 Seventh International Joint Conference on Computational Sciences and Optimization"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/cso.2014.124"
+        },
+        {
+          "DOI": "10.3390/atmos16030289",
+          "title": [
+            "The Sensitivity of Heatwave Climatology to Input Gridded Datasets: A Case Study of Ukraine"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-8827-0280",
+              "authenticated-orcid": false,
+              "given": "Oleg",
+              "family": "Skrynyk",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Center for Climate Change (C3), Universitat Rovira i Virgili (URV), Vila-seca, 43480 Tarragona, Spain"
+                },
+                {
+                  "name": "Ukrainian Hydrometeorological Institute (UHMI), 03028 Kyiv, Ukraine"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8384-377X",
+              "authenticated-orcid": false,
+              "given": "Enric",
+              "family": "Aguilar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Center for Climate Change (C3), Universitat Rovira i Virgili (URV), Vila-seca, 43480 Tarragona, Spain"
+                },
+                {
+                  "name": "Institut Universitari de Recerca en Sostenibilitat, Canvi Climàtic i Transició Energètica (IU-RESCAT), Universitat Rovira i Virgili (URV), Vila-seca, 43480 Tarragona, Spain"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5588-1293",
+              "authenticated-orcid": false,
+              "given": "Caterina",
+              "family": "Cimolai",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Center for Climate Change (C3), Universitat Rovira i Virgili (URV), Vila-seca, 43480 Tarragona, Spain"
+                },
+                {
+                  "name": "Institut Universitari de Recerca en Sostenibilitat, Canvi Climàtic i Transició Energètica (IU-RESCAT), Universitat Rovira i Virgili (URV), Vila-seca, 43480 Tarragona, Spain"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "Atmosphere"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.3390/atmos16030289"
+        },
+        {
+          "DOI": "10.1016/j.apr.2025.102513",
+          "title": [
+            "Role of aerosols on prolonged extreme heatwave event over India and its implication to atmospheric boundary layer"
+          ],
+          "author": [
+            {
+              "given": "K.B.",
+              "family": "Betsy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1439-7910",
+              "authenticated-orcid": false,
+              "given": "Sanjay Kumar",
+              "family": "Mehta",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                6
+              ]
+            ]
+          },
+          "container-title": [
+            "Atmospheric Pollution Research"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1016/j.apr.2025.102513"
+        },
+        {
+          "DOI": "10.32614/cran.package.weatherjoin",
+          "title": [
+            "weatherjoin: Join Gridded Weather Data to Event Tables"
+          ],
+          "author": [
+            {
+              "given": "Przemek",
+              "family": "Dolowy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                29
+              ]
+            ]
+          },
+          "container-title": [
+            "CRAN: Contributed Packages"
+          ],
+          "type": "dataset",
+          "URL": "https://doi.org/10.32614/cran.package.weatherjoin"
+        },
+        {
+          "DOI": "10.1175/jcli-d-22-0833.1",
+          "title": [
+            "Multiweek Prediction and Attribution of the Black Saturday Heatwave Event in Southeast Australia"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-6533-367X",
+              "authenticated-orcid": true,
+              "given": "S.",
+              "family": "Abhik",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "a School of Earth, Atmosphere and Environment, Monash University, Clayton, Victoria, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8273-5358",
+              "authenticated-orcid": true,
+              "given": "Eun-Pa",
+              "family": "Lim",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "b Bureau of Meteorology, Melbourne, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Pandora",
+              "family": "Hope",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "b Bureau of Meteorology, Melbourne, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "David A.",
+              "family": "Jones",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "b Bureau of Meteorology, Melbourne, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Climate"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1175/jcli-d-22-0833.1"
+        },
+        {
+          "DOI": "10.1109/migars72065.2026.11688925",
+          "title": [
+            "LSTM-Based Prediction of Compound Drought – Heatwave Events in Madhya Pradesh, India"
+          ],
+          "author": [
+            {
+              "given": "Ranjitha",
+              "family": "R",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Amrita Vishwa Vidyapeetham",
+                  "place": [
+                    "Amritapuri, India"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dhanya",
+              "family": "M",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Amrita Vishwa Vidyapeetham",
+                  "place": [
+                    "Amritapuri, India"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7
+              ]
+            ]
+          },
+          "container-title": [
+            "2026 International Conference on Machine Intelligence for GeoAnalytics and Remote Sensing (MIGARS)"
+          ],
+          "type": "proceedings-article",
+          "URL": "https://doi.org/10.1109/migars72065.2026.11688925"
+        },
+        {
+          "DOI": "10.64628/ab.n5k65rhdm",
+          "title": [
+            "Is India’s heatwave a freak event? A statistician investigates"
+          ],
+          "author": [
+            {
+              "given": "Hugo",
+              "family": "Winter",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Lancaster University"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                6,
+                1
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.64628/ab.n5k65rhdm"
+        },
+        {
+          "DOI": "10.1088/2752-5295/ade1f3",
+          "title": [
+            "A new statistical method of rapid event attribution for probability of extreme events: applications to heatwave events in Japan"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9465-881X",
+              "authenticated-orcid": true,
+              "given": "Chiharu",
+              "family": "Takahashi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yukiko",
+              "family": "Imada",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Hiroaki",
+              "family": "Kawase",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tomohiro",
+              "family": "Tanaka",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                10
+              ]
+            ]
+          },
+          "container-title": [
+            "Environmental Research: Climate"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1088/2752-5295/ade1f3"
+        },
+        {
+          "DOI": "10.1029/2026jd046972",
+          "title": [
+            "Drought‐Heatwave Compound Events in China: Long‐Term Changes, Regional Drivers, and Rising Event Probability"
+          ],
+          "author": [
+            {
+              "given": "Feng",
+              "family": "Tan",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Institute for Environmental and Climate Research College of Environmental and Climate Jinan University  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8724-6948",
+              "authenticated-orcid": false,
+              "given": "Run",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute for Environmental and Climate Research College of Environmental and Climate Jinan University  Guangzhou China"
+                },
+                {
+                  "name": "Guangdong‐Hong Kong‐Macau Joint Laboratory of Collaborative Innovation for Environmental Quality  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Min",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute for Environmental and Climate Research College of Environmental and Climate Jinan University  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jing",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute for Environmental and Climate Research College of Environmental and Climate Jinan University  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Zhenying",
+              "family": "Ye",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute for Environmental and Climate Research College of Environmental and Climate Jinan University  Guangzhou China"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                15
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Geophysical Research: Atmospheres"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1029/2026jd046972"
+        },
+        {
+          "DOI": "10.1101/2024.10.15.618601",
+          "title": [
+            "Temporal Prediction through Integration of Probability Distributions of Event Timings at Multiple Levels"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-8795-9358",
+              "authenticated-orcid": false,
+              "given": "Yiyuan Teresa",
+              "family": "Huang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-9402-0851",
+              "authenticated-orcid": false,
+              "given": "Zenas C.",
+              "family": "Chao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                17
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "URL": "https://doi.org/10.1101/2024.10.15.618601"
+        },
+        {
+          "DOI": "10.1007/s10584-023-03641-x",
+          "title": [
+            "Challenging the universality of heatwave definitions: gridded temperature discrepancies across climate regions"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-7645-5720",
+              "authenticated-orcid": false,
+              "given": "Erin",
+              "family": "Coughlan de Perez",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4714-4514",
+              "authenticated-orcid": false,
+              "given": "Julie",
+              "family": "Arrighi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1283-2683",
+              "authenticated-orcid": false,
+              "given": "Joalane",
+              "family": "Marunye",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                25
+              ]
+            ]
+          },
+          "container-title": [
+            "Climatic Change"
+          ],
+          "type": "journal-article",
+          "URL": "https://doi.org/10.1007/s10584-023-03641-x"
+        },
+        {
+          "DOI": "10.1007/978-3-030-87745-3_300347",
+          "title": [
+            "IMD – India Meteorological Department"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "container-title": [
+            "The Palgrave Encyclopedia of Urban and Regional Futures"
+          ],
+          "type": "book-chapter",
+          "URL": "https://doi.org/10.1007/978-3-030-87745-3_300347"
+        }
+      ]
+    }
+  ],
+  "screening_note": "Bibliographic metadata search only. Results require manual relevance screening and full-text review; absence from these results is not evidence of novelty."
+}

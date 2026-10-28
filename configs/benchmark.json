@@ -1,0 +1,47 @@
+{
+  "study_period": [
+    1981,
+    2025
+  ],
+  "normal_period": [
+    1981,
+    2010
+  ],
+  "train_years": [
+    1981,
+    2007
+  ],
+  "validation_years": [
+    2008,
+    2013
+  ],
+  "test_years": [
+    2014,
+    2025
+  ],
+  "issue_months": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "forecast_horizons_days": [
+    1,
+    2,
+    3
+  ],
+  "maximum_feature_lag_days": 7,
+  "spatial_block_degrees": 5.0,
+  "spatial_buffer_degrees": 1.0,
+  "spatial_folds": 5,
+  "threshold_max_validation_false_alarm_rate": 0.1,
+  "max_training_rows_per_fit": 200000,
+  "random_seed": 42,
+  "predictor_source": "ERA5 reanalysis via pinned Earthmover Icechunk mirror",
+  "target_source": "IMD 1-degree daily Tmax",
+  "prediction_type": "retrospective prediction using meteorological analysis/reanalysis inputs",
+  "predictor_model": "ERA5",
+  "predictor_grid_selection": "nearest 0.25-degree ERA5 cell to each IMD 1-degree cell center; source coordinates retained",
+  "predictor_time_standard": "Asia/Kolkata local-date daily summaries from hourly UTC records",
+  "predictor_snapshot_id": "TZ2KX6A24CJ5DG17T7MG"
+}

@@ -1,0 +1,525 @@
+{
+  "acquisition_manifest": {
+    "accessed_on": "2026-10-25",
+    "period": [
+      1981,
+      2025
+    ],
+    "imd_manifest": "data/raw/imd/download_manifest.json",
+    "imd_netcdf": "data\\interim\\imd_tmax_1981_2025.nc",
+    "predictor_source": "era5",
+    "predictor_delivery": "icechunk",
+    "predictor_api": "https://registry.opendata.aws/earthmover-era5/",
+    "predictor_api_version": "",
+    "predictor_snapshot_id": "TZ2KX6A24CJ5DG17T7MG",
+    "predictor_source_manifest": "data\\raw\\era5_icechunk\\source_manifest.json",
+    "predictor_data_license": "CC-BY-4.0",
+    "predictor_model": "Copernicus ERA5 via Earthmover public Icechunk temporal layout",
+    "predictor_variables": {
+      "t2m": "temperature_2m_mean/max/min",
+      "d2m": "hourly dewpoint for Magnus relative humidity",
+      "u10": "10 m eastward wind component",
+      "v10": "10 m northward wind component",
+      "sp": "surface pressure",
+      "tp": "hourly total precipitation accumulation"
+    },
+    "predictor_time_standard": "UTC hourly; aggregated to Asia/Kolkata local dates",
+    "predictor_cell_selection": "nearest 0.25-degree ERA5 grid cell to each IMD 1-degree cell center",
+    "predictor_native_resolution": "ERA5 reanalysis: 0.25 degree",
+    "predictor_grid_points": 275,
+    "analysis_domain_observation_period": [
+      "1981-01-01",
+      "2010-12-31"
+    ],
+    "predictor_manifest": "data\\raw\\era5_icechunk\\download_manifest.csv",
+    "predictor_netcdf": "data\\interim\\era5_1981_2025.nc",
+    "terrain_mask": "imdlib 0.4.0 region_mask_100.npy, MIT license",
+    "terrain_mask_sha256": "e5ae8493f2623b149c844ec14c5692f7af83b1ebeb5d7ea0c410137cdf18cf4f",
+    "country_mask": "Natural Earth Admin 0 - Countries 1:10m version 5.1.1; grid-center inside India polygon",
+    "country_boundary_source": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_countries.zip",
+    "country_boundary_source_archive_sha256": "ce1ac7036499a0edd641fbc093cd209a98f96a49d2eca8480aaacad35138a7f6",
+    "country_boundary_geojson_sha256": "74529a713aa0803d66f3aed70cc00d84c37426788cafb2475b1980af160ec0c6",
+    "label_grid_resolution_degrees": 1.0,
+    "notes": "The predictor archive is retrospective meteorological analysis/reanalysis data; results are retrospective prediction experiments and not operational forecast skill."
+  },
+  "era5_source_manifest": {
+    "accessed_on": "2026-10-25",
+    "dataset": "Earthmover ERA5 Icechunk public mirror",
+    "registry_url": "https://registry.opendata.aws/earthmover-era5/",
+    "bucket": "earthmover-icechunk-era5",
+    "prefix": "icechunkV2",
+    "group": "single/temporal",
+    "snapshot_id": "TZ2KX6A24CJ5DG17T7MG",
+    "license": "CC-BY-4.0",
+    "variables": [
+      "t2m",
+      "d2m",
+      "u10",
+      "v10",
+      "sp",
+      "tp"
+    ],
+    "native_resolution_degrees": 0.25,
+    "time_standard": "UTC hourly",
+    "daily_timezone": "Asia/Kolkata",
+    "daily_window": "February 22 through June 30, inclusive, annually",
+    "daily_aggregation": "24 hourly records per local date; mean/min/max temperature; hourly Magnus relative humidity mean; scalar wind-speed mean; mean surface pressure; sum of hourly total-precipitation accumulations",
+    "spatial_chunk_shape": [
+      12,
+      12
+    ],
+    "max_spatial_workers": 8
+  },
+  "imd_download_manifest": [
+    {
+      "file": "MaxT_1981.GRD",
+      "size_bytes": 1403060,
+      "sha256": "539b8147d96017d2cb7144a6c4d8b518e7bc71e2d6296e7cf3960f89d7801011",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1981,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1982.GRD",
+      "size_bytes": 1403060,
+      "sha256": "ac208c74053d5903d533fb603af5a56919c00de52a18e2d5b7701142b191d279",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1982,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1983.GRD",
+      "size_bytes": 1403060,
+      "sha256": "a447e32c9ab7f61d0ca2e383d3a5351ae1c8d97854e603662f37916aacaae84e",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1983,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1984.GRD",
+      "size_bytes": 1406904,
+      "sha256": "64491557d96a7ffa1f2f45ac261df31544d8d1d28414469c0c215732316b8b25",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1984,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1985.GRD",
+      "size_bytes": 1403060,
+      "sha256": "dac7e753bdd23158c011db6f132ff5908100131dbac49abd9e3ba021e4d7a8a6",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1985,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1986.GRD",
+      "size_bytes": 1403060,
+      "sha256": "2fd3b08a5be436f7eeedf2d0826f38ad818750a146804baeef7b3ab0b5f51a73",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1986,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1987.GRD",
+      "size_bytes": 1403060,
+      "sha256": "21762f623eafb7cfe27e84a218a52bb5f8523e6a834c8cf1b5484f96bf232ee6",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1987,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1988.GRD",
+      "size_bytes": 1406904,
+      "sha256": "eb21a1353954dbfa88819a474d78c60bb7af2d212202e0af5fb58ad8be01e4f7",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1988,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1989.GRD",
+      "size_bytes": 1403060,
+      "sha256": "bfe4eb6fcdb4ec6bf681e56001b532f91c611a672997b05217c7bb6662be86c6",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1989,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1990.GRD",
+      "size_bytes": 1403060,
+      "sha256": "1096eb63dbe96a7d91bf2e3f018f0d5336ca4a47a32e1103de940babaf9935ec",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1990,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1991.GRD",
+      "size_bytes": 1403060,
+      "sha256": "9ce94878b133f26f46e8e3d0359a4c9608dfaae3400aeaa6705868aa9546c3e5",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1991,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1992.GRD",
+      "size_bytes": 1406904,
+      "sha256": "b72e8fc7c22230026fcc939d0d34818bc8eba1d5826cb84be69ddb57d422bf5d",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1992,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1993.GRD",
+      "size_bytes": 1403060,
+      "sha256": "0ec8ea408f4fc78ea9cc0ef4249e6e1946f2a782b2d301a34a10bdb8fbdf47b5",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1993,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1994.GRD",
+      "size_bytes": 1403060,
+      "sha256": "061ff05414464b436e883610c65be13e1feed7706517d8e654a50f02a8b66a0b",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1994,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1995.GRD",
+      "size_bytes": 1403060,
+      "sha256": "adb862f37e89c92ead264fabb8fc0d93f168ac755291d25ca34dd337e05e881e",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1995,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1996.GRD",
+      "size_bytes": 1406904,
+      "sha256": "19e36d1464b03d53f683edc0eba16a4b1fbf3946502deb95862e34b041ad4217",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1996,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1997.GRD",
+      "size_bytes": 1403060,
+      "sha256": "afc7d81131af18d0f451877ec6d21bdac2bb39a5344a652dc89f63be9bff4e41",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1997,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1998.GRD",
+      "size_bytes": 1403060,
+      "sha256": "e0bc505889ccb4049188e94745cef667c6c3b678c890635d9ac2ac2798ffcfaa",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1998,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_1999.GRD",
+      "size_bytes": 1403060,
+      "sha256": "eb9c2bcd85c838ff351226b46aadf214c5cee867b3607bdc29737add4739595b",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 1999,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2000.GRD",
+      "size_bytes": 1406904,
+      "sha256": "9c959ec9129b4edf3952da1b6a9cecdd26bc4307bab88a1e8521494faddd2565",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2000,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2001.GRD",
+      "size_bytes": 1403060,
+      "sha256": "e8565453a49fe0741b3159b774724f319680e38411de29a15af40ff6e97759a8",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2001,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2002.GRD",
+      "size_bytes": 1403060,
+      "sha256": "7c5086161618c597f088ae99bd1bdba3e9099216fdd55354513901b467377dd4",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2002,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2003.GRD",
+      "size_bytes": 1403060,
+      "sha256": "12ce3042e4809b25fd0267cd3024dcc5c08f97ff4ed5be4732d28c6059c96fbb",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2003,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2004.GRD",
+      "size_bytes": 1406904,
+      "sha256": "a66a1adad12f5cb6d132a956f70dbd6cdec2d87a7eceff8554c1116540e43d0e",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2004,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2005.GRD",
+      "size_bytes": 1403060,
+      "sha256": "7b96f31dcb61b7c849a8e503c0bf1ef0e61b360d4f0341e0569fdda18804dde7",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2005,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2006.GRD",
+      "size_bytes": 1403060,
+      "sha256": "7926666aae02b20aa1e9bc244d3d5115bd548a0d6df9a94754d4f67d00c41d5c",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2006,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2007.GRD",
+      "size_bytes": 1403060,
+      "sha256": "1b4a760583bae5a9979f18a4ca82d03f2ea321d21b5035df9cc8de66762fb1a9",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2007,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2008.GRD",
+      "size_bytes": 1406904,
+      "sha256": "a80bfd892b2a471d1044faa24414bc9dc93b491fae51de000c010538d3b4f729",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2008,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2009.GRD",
+      "size_bytes": 1403060,
+      "sha256": "13db294a906e25cbf484b01e294a3c089bae441353cee2b39a5e4dd26ff8bab1",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2009,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2010.GRD",
+      "size_bytes": 1403060,
+      "sha256": "7d82ecb95f82a4606f115c6674b18a34e906a479805f021fc0b324a5b3bd3795",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2010,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2011.GRD",
+      "size_bytes": 1403060,
+      "sha256": "642d337d4aa4ab0c4b167d04b923b3ec285a29d79920d5a8d3e5747953b7ccf2",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2011,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2012.GRD",
+      "size_bytes": 1406904,
+      "sha256": "0f55a48c4ca1b6558e60bbb2047e0a7cfb5ff720c43c7cc39fca892b4754ef3c",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2012,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2013.GRD",
+      "size_bytes": 1403060,
+      "sha256": "80c0e0162343cb6808db7bde56eab3222322a64d69bc493078fe05a9fb38af77",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2013,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2014.GRD",
+      "size_bytes": 1403060,
+      "sha256": "68f6b0b7a6e4ed4e12ac13fd3e0884244b5d6b330fedee1ac43a4bd419ec9fd7",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2014,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2015.GRD",
+      "size_bytes": 1403060,
+      "sha256": "1f59cb38f0412c31f00ed5b0283ce3c8d4aecb33f7c798037b23eda7a2da1fc9",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2015,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2016.GRD",
+      "size_bytes": 1406904,
+      "sha256": "4cb547522de59e6af4a93b5a50810de406004b2553921337270f499db4e0c12e",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2016,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2017.GRD",
+      "size_bytes": 1403060,
+      "sha256": "ab6f1602d4bf3d2fb72af1c95123135715d03363ffcff2edba290460be348aa2",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2017,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2018.GRD",
+      "size_bytes": 1403060,
+      "sha256": "d3177ec1a2f39235834a7ab5fa5120866bb9106f1fc2c06d8eba0d5bcdf7e555",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2018,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2019.GRD",
+      "size_bytes": 1403060,
+      "sha256": "562086409f4db9ca32b6d554e2cb209926c4caf9892d7b5385195b254e0576ab",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2019,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2020.GRD",
+      "size_bytes": 1406904,
+      "sha256": "f77b8b50582c400eca0510a1738050ab10bf628b648f5a7a9e9d3c7842637ba8",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2020,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2021.GRD",
+      "size_bytes": 1403060,
+      "sha256": "d869f0277dcc3b2038421f3a20a2ebf82cd7889dd553742577eda8f7603036dc",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2021,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2022.GRD",
+      "size_bytes": 1403060,
+      "sha256": "b8340004e3c13e7b1b0a9ff14d03771bbfe048b64db92fb7e23260c2f52ca214",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2022,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2023.GRD",
+      "size_bytes": 1403060,
+      "sha256": "3279af28be8f222970dc0a48cb9530228ca55ae136a26020291de59d618d982b",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2023,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2024.GRD",
+      "size_bytes": 1406904,
+      "sha256": "de50b8732a3e0fd7dea29a9c5604ca78b5c02e78b8164fb20ad2f6e00ed4c017",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2024,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    },
+    {
+      "file": "MaxT_2025.GRD",
+      "size_bytes": 1403060,
+      "sha256": "673775eafe685d180c5d7a19018287599697a3f6800332470ab27ca512bd4b88",
+      "source_url": "https://www.imdpune.gov.in/cmpg/Griddata/maxtemp.php",
+      "dataset": "IMD daily 1-degree Tmax grid",
+      "year": 2025,
+      "resolution_degrees": 1.0,
+      "accessed_on": "2026-10-25"
+    }
+  ]
+}

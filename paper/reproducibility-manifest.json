@@ -1,0 +1,798 @@
+{
+  "manifest_status": "Prepared for the v0.2.0 public source release; source_files hashes cover packaged files other than this manifest, and result_artifacts hashes refer to generated outputs not bundled.",
+  "study_period": [
+    1981,
+    2025
+  ],
+  "grid_cells": 275,
+  "target_source": "IMD daily 1-degree gridded maximum temperature",
+  "predictor_source": {
+    "name": "Earthmover ERA5 Icechunk public mirror",
+    "registry_url": "https://registry.opendata.aws/earthmover-era5/",
+    "snapshot_id": "TZ2KX6A24CJ5DG17T7MG",
+    "delivery": "icechunk",
+    "license": "CC-BY-4.0",
+    "variables": {
+      "t2m": "temperature_2m_mean/max/min",
+      "d2m": "hourly dewpoint for Magnus relative humidity",
+      "u10": "10 m eastward wind component",
+      "v10": "10 m northward wind component",
+      "sp": "surface pressure",
+      "tp": "hourly total precipitation accumulation"
+    },
+    "time_standard": "UTC hourly; aggregated to Asia/Kolkata local dates",
+    "cell_selection": "nearest 0.25-degree ERA5 grid cell to each IMD 1-degree cell center",
+    "native_resolution": "ERA5 reanalysis: 0.25 degree",
+    "daily_aggregation": "24 hourly records per local date; mean/min/max temperature; hourly Magnus relative humidity mean; scalar wind-speed mean; mean surface pressure; sum of hourly total-precipitation accumulations"
+  },
+  "acquisition": {
+    "accessed_on": "2026-10-25",
+    "seasonal_predictor_rows": 1599400,
+    "annual_cell_files": 12375,
+    "final_cell_cache_files": 275,
+    "cache_validation_command": "uv run --extra era5-cloud python scripts/validate_era5_cache.py --start-year 1981 --end-year 2025"
+  },
+  "experiment": {
+    "label_normal_years": [
+      1981,
+      2010
+    ],
+    "train_years": [
+      1981,
+      2007
+    ],
+    "validation_years": [
+      2008,
+      2013
+    ],
+    "test_years": [
+      2014,
+      2025
+    ],
+    "horizons_days": [
+      1,
+      2,
+      3
+    ],
+    "spatial_block_degrees": 5.0,
+    "spatial_buffer_degrees": 1.0,
+    "spatial_folds": 5,
+    "random_seed": 42,
+    "max_training_rows": 200000,
+    "validation_false_alarm_constraint": 0.1
+  },
+  "software": {
+    "python": "3.14.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "xarray": "2026.9.0",
+    "scikit_learn": "1.9.1",
+    "xgboost": "not-installed"
+  },
+  "source_release": {
+    "package_name": "india-heatwave-benchmark",
+    "package_version": "0.2.0",
+    "git_revision": null,
+    "note": "The release commit is recorded here after the clean source snapshot is committed; the v0.2.0 tag identifies the final published snapshot."
+  },
+  "transition_experiment": {
+    "scope_note": "The transition method is Day-1 only. Spatial-transfer scores are conditional on the observed issue-day heatwave state being available at held-out cells. Reanalysis inputs are retrospective and do not establish operational forecast skill. No algorithm-novelty claim is made.",
+    "summary_path": "reports/generated_state_transition_era5/transition_summary.json"
+  },
+  "verification": {
+    "test_command": "uv run --locked --extra dev --extra era5-cloud python -m pytest -q",
+    "latest_result": "99 passed on 2026-10-28 with the locked project environment and dev plus era5-cloud extras",
+    "clean_environment_setup": "UV_PROJECT_ENVIRONMENT=<fresh-path> uv sync --locked --extra dev --extra era5-cloud",
+    "era5_cache_validation": "12,375 annual files; 275 final caches; 1,599,400 seasonal rows",
+    "full_clean_environment_benchmark_reproduction": "Passed from cached IMD and ERA5 inputs; the detailed local audit report is not included in this source release.",
+    "fresh_full_period_acquisition": "Fresh IMD checksum audit completed for 45 annual files. A fresh full-period ERA5 reacquisition and benchmark rerun were not performed."
+  },
+  "result_artifacts": [
+    {
+      "path": "reports/generated_era5/annual_target_coverage.csv",
+      "bytes": 2258,
+      "sha256": "f397b235a88d3e22b042f47d93d0f5ed88905e891e41e431fd466f497dab9acb"
+    },
+    {
+      "path": "reports/generated_era5/benchmark_summary.json",
+      "bytes": 22423,
+      "sha256": "e6d6cffd7c33627eaefddfc4d5c51658f65646f152de6861f96d844521687959"
+    },
+    {
+      "path": "reports/generated_era5/brier_decomposition_100bins.csv",
+      "bytes": 3389,
+      "sha256": "8e036d1c121445cdcf3334a9886a2691afd56e9f9d22e1e8d890e55887100658"
+    },
+    {
+      "path": "reports/generated_era5/group_macro_bootstrap_intervals.csv",
+      "bytes": 9052,
+      "sha256": "23a215a3796866ed602c5c9bcd768dee09b184205256aa83a73e99f4a407a765"
+    },
+    {
+      "path": "reports/generated_era5/group_metrics.csv",
+      "bytes": 70403,
+      "sha256": "e16bfe0e5b13889e48ff86a7f7271352d670434d5d5aa55608888e5eabdf1f54"
+    },
+    {
+      "path": "reports/generated_era5/metrics.csv",
+      "bytes": 51519,
+      "sha256": "de0d51d85cb889af3b79a2a0c6fe7e1d5d306d3ed6f8319d21edc757ceddf1ec"
+    },
+    {
+      "path": "reports/generated_era5/onset_bootstrap_intervals.csv",
+      "bytes": 22431,
+      "sha256": "524c9e8809723580025a084a663bdb58d0c055dd4afea6abca57b93ea726c8f4"
+    },
+    {
+      "path": "reports/generated_era5/onset_bootstrap_summary.json",
+      "bytes": 1185,
+      "sha256": "e8e8d99238071a484282a034c587af0bf48ce83f6257e7e84cc5de44820db2e1"
+    },
+    {
+      "path": "reports/generated_era5/onset_diagnostic_metrics.csv",
+      "bytes": 33840,
+      "sha256": "20af3e89be6099132f9913eea63e535bfbf6338edfdeed998cfb7a19b848f1c2"
+    },
+    {
+      "path": "reports/generated_era5/onset_diagnostic_summary.json",
+      "bytes": 1315,
+      "sha256": "99c54a7a49433806886800932453bb5093b3af6763540350ab9c291848fc0eac"
+    },
+    {
+      "path": "reports/generated_era5/onset_group_metrics.csv",
+      "bytes": 82495,
+      "sha256": "d21640a2883f44148009c226236382f2c6303e790b147e43d33d290e00e39c7e"
+    },
+    {
+      "path": "reports/generated_era5/paired_model_vs_climatology_bootstrap_intervals.csv",
+      "bytes": 8582,
+      "sha256": "1956243726c519a93c99baa69eaec7b9035b1e7bda5dc89dac7bc772e692d206"
+    },
+    {
+      "path": "reports/generated_era5/sensitivity_metrics.csv",
+      "bytes": 94427,
+      "sha256": "01b8027aefbae8f680bbf050c5156f6a5cb6909fcddb0786c4e4cfa859c7f4a3"
+    },
+    {
+      "path": "reports/generated_era5/sensitivity_summary.json",
+      "bytes": 24312,
+      "sha256": "408847f384c9dd97d7fa659d159177099ecc128a0a7b552494d9f86126f6d5be"
+    },
+    {
+      "path": "reports/generated_era5/temporal_test_precision_recall_calibration.png",
+      "bytes": 437506,
+      "sha256": "0c9bdb38249c0ff56ada32c0afad35f3574078f0f5f977f018277beca1490489"
+    },
+    {
+      "path": "reports/generated_era5/yearwise_temporal_test_metrics.csv",
+      "bytes": 5264,
+      "sha256": "9dcfd5291b2c7ad00393eefbf8ea0d6962ee452e7c1b7ef521219539bb5ba279"
+    },
+    {
+      "path": "reports/generated_era5/label_normal_hgb_sensitivity/metrics.csv",
+      "bytes": 8979,
+      "sha256": "f213843b927e6cc308bfb185e60e6e9edd80b67f86f1eae5f4e1bf384997f17d"
+    },
+    {
+      "path": "reports/generated_era5/label_normal_hgb_sensitivity/summary.json",
+      "bytes": 1388,
+      "sha256": "9f6e9e6ead9c6ed58a2f819af3662c2405133d515b494ec2f322807ec32c7ddb"
+    },
+    {
+      "path": "reports/generated_state_transition_era5/transition_group_metrics.csv",
+      "bytes": 127513,
+      "sha256": "f91b241990e6b3b777f63878279f69d0339b5efc4cd1a3db273bf5682cd3ad72"
+    },
+    {
+      "path": "reports/generated_state_transition_era5/transition_macro_bootstrap_intervals.csv",
+      "bytes": 36577,
+      "sha256": "2113d088ea041bd4cb4741e76fbc3f5e93eb33914482efb232769826e1d234b3"
+    },
+    {
+      "path": "reports/generated_state_transition_era5/transition_metrics.csv",
+      "bytes": 44034,
+      "sha256": "1f152be5f7f327b15c3194692cb942c1590a6edf553b2c003953f20e1dd218d6"
+    },
+    {
+      "path": "reports/generated_state_transition_era5/transition_paired_intervals.csv",
+      "bytes": 38399,
+      "sha256": "46991704752e0e9728102557a39f7bebfeb0ed6431f7122a9b2871b9c58b9604"
+    },
+    {
+      "path": "reports/generated_state_transition_era5/transition_summary.json",
+      "bytes": 31858,
+      "sha256": "5fe51cb907a8dbf65fe850fdb41f3f9d759dba70e05d6631eb0b0d83611be03f"
+    },
+    {
+      "path": "reports/onset_model_era5/onset_cv_candidate_scores.csv",
+      "bytes": 2237,
+      "sha256": "e84fb184a1c7a62608d5b351263354f858a4f375e8b521d9aa60f7f89318c844"
+    },
+    {
+      "path": "reports/onset_model_era5/onset_paired_bootstrap_intervals.csv",
+      "bytes": 1802,
+      "sha256": "d3d22158b61a94eb13277e4ffc0e7b26d7e71ad96bd00caf480c3d9c3b9fba1a"
+    },
+    {
+      "path": "reports/onset_model_era5/onset_summary.json",
+      "bytes": 12061,
+      "sha256": "2a68996c6dcedffa702e662b8bcf3713bd1b36504552ec21138d589ce4c2a64a"
+    },
+    {
+      "path": "reports/independent_onset_2026/climatology_onset_2026_moving_block_intervals.csv",
+      "bytes": 661,
+      "sha256": "19daa757a361ad78475944ef36aad1853cc22c3264ddacc284018d0fe5b55ab8"
+    },
+    {
+      "path": "reports/independent_onset_2026/frozen_onset_2026_metrics.json",
+      "bytes": 2445,
+      "sha256": "e1cd57b7e809f3a8883eeea9ce99556e63653ec9d6a2d882b76453a13bca501e"
+    },
+    {
+      "path": "reports/independent_onset_2026/frozen_onset_2026_moving_block_intervals.csv",
+      "bytes": 593,
+      "sha256": "04a918fd95a0eceb4893d3a793d8799449c5b4e9739808b8e40c57d3da7405f8"
+    },
+    {
+      "path": "reports/independent_onset_2026/frozen_onset_2026_paired_baseline_intervals.csv",
+      "bytes": 1572,
+      "sha256": "e6852d74f1be6cfce5400d990d11f53996e2cf77a407581f1120c64a21f96ef3"
+    },
+    {
+      "path": "reports/independent_onset_2026/frozen_onset_predictions_2026.csv",
+      "bytes": 3877248,
+      "sha256": "57981fc0fb667f328dd8786a63942c91b1f753397061383908af047eeee763bc"
+    },
+    {
+      "path": "reports/independent_cpc_2026/cpc_frozen_onset_metrics_2026.json",
+      "bytes": 8954,
+      "sha256": "fb34e692c918c16c006daa0c6a6ebb480d87ff6bff97caf39b8ad61d573a84d2"
+    },
+    {
+      "path": "reports/independent_cpc_2026/cpc_report_supported_sensitivity_2026.json",
+      "bytes": 5037,
+      "sha256": "a9ee688b9b3acd7fe78dd71802b1d1c2016d232e618efbf1eb60c6c74ad51cb1"
+    },
+    {
+      "path": "reports/independent_power_2026/frozen_onset_power_metrics_2026.json",
+      "bytes": 4849,
+      "sha256": "7553ce5a6bf4c98b2b7d92e9abb1894dd96acaba98eb31547a9463d861f715fd"
+    },
+    {
+      "path": "reports/percentile_label_sensitivity/label_overlap_metrics.json",
+      "bytes": 8049,
+      "sha256": "5c1ef3afa7a10102c00043007f627417dec84cb473ead7d7e4ab3b51a7a4029a"
+    },
+    {
+      "path": "paper/overleaf_ems_draft/figs/temporal-test-pr-calibration.pdf",
+      "bytes": 372087,
+      "sha256": "898afd295a160dfcc4bfe2ea835d1196db79662c7576270c506f91d42ee22ca7"
+    },
+    {
+      "path": "paper/overleaf_ems_draft/figs/spatial-fold-transfer.pdf",
+      "bytes": 23645,
+      "sha256": "ae3bdf3ca073d51267284817d35d740749871bffb6696b2af5c42fa9df7664b8"
+    },
+    {
+      "path": "paper/overleaf_ems_draft/figs/day1-onset-average-precision.pdf",
+      "bytes": 24332,
+      "sha256": "45500a0e9b7606bec421d0db0a517a850863bb3cf07527f1aa7c82d8361194e7"
+    },
+    {
+      "path": "paper/overleaf_ems_draft/figs/independent-onset-2026-pr.pdf",
+      "bytes": 22940,
+      "sha256": "fe0b20be9b43e4151f3a9b21e4daa9a10d556c6699da3e859ca02623fc9f6b71"
+    }
+  ],
+  "headline_result_map": {
+    "primary_temporal_and_spatial": {
+      "command": "uv run --locked python scripts/run_benchmark.py --predictor-source era5 --max-training-rows 200000 --spatial-folds 5",
+      "summary": "reports/generated_era5/benchmark_summary.json",
+      "metrics": "reports/generated_era5/metrics.csv",
+      "spatial_metrics": "reports/generated_era5/group_metrics.csv"
+    },
+    "state_conditioned_day1": {
+      "command": "uv run --locked python scripts/run_transition_benchmark.py --predictor-source era5 --max-training-rows 200000 --spatial-folds 5",
+      "summary": "reports/generated_state_transition_era5/transition_summary.json"
+    },
+    "exploratory_onset_redesign": {
+      "command": "uv run --locked --extra era5-cloud python scripts/run_transition_benchmark.py --predictor-source era5 --max-training-rows 200000 --spatial-folds 5 --onset-model",
+      "summary": "reports/onset_model_era5/onset_summary.json"
+    },
+    "frozen_2026_imd_cpc_power": {
+      "commands": [
+        "uv run --locked --extra era5-cloud python scripts/evaluate_frozen_onset_2026.py",
+        "uv run --locked python scripts/evaluate_frozen_onset_cpc_2026.py",
+        "uv run --locked python scripts/evaluate_frozen_onset_power_2026.py"
+      ],
+      "summaries": [
+        "reports/independent_onset_2026/frozen_onset_2026_metrics.json",
+        "reports/independent_cpc_2026/cpc_frozen_onset_metrics_2026.json",
+        "reports/independent_power_2026/frozen_onset_power_metrics_2026.json"
+      ]
+    },
+    "full_command_map": "docs/reproduce-manuscript-headlines.md"
+  },
+  "source_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 352,
+      "sha256": "7192343f4307bd4fd24f7be6baa36f0f9bf70b956ed99dd528c8f310afe7f32b"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 405,
+      "sha256": "ed43dc0e850b428f5bed505fc875bda752699daa7fa1d592613d3335e37d50aa"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1071,
+      "sha256": "bed010337da6fb9346f419f9b52058611533996a04d3aaecc63b72b4694f9243"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 571,
+      "sha256": "aa3d55500145f9cd53d618a40635f5df2aa63df68eecb9220280cc653cd55eae"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11140,
+      "sha256": "90e89d83d6ba7ebee78272913e538b8a533ba112e333f869f40773505a3683d5"
+    },
+    {
+      "path": "configs/benchmark.json",
+      "bytes": 1134,
+      "sha256": "13a71fb542cea72f1f5f883d76e6da7048e89147eda6ece601b9624432ef9547"
+    },
+    {
+      "path": "docs/data-sources.md",
+      "bytes": 10173,
+      "sha256": "96293a43eeece48749ca95d18f380574e46b12b9ac1bfed78eb2bee51e56243b"
+    },
+    {
+      "path": "docs/frozen_cpc_2026_protocol.md",
+      "bytes": 3409,
+      "sha256": "db66a608e82924842322879e99458b7e9779c8af1eff58d440325a1e11502018"
+    },
+    {
+      "path": "docs/frozen_nasa_power_2026_product_check_protocol.md",
+      "bytes": 3085,
+      "sha256": "bf7fef99356b075951816b18b82f4867f86f30a9d5b189c403a5978c181287b6"
+    },
+    {
+      "path": "docs/frozen_onset_protocol_2026-10-27.md",
+      "bytes": 3752,
+      "sha256": "a7c37ffcdbac5823ce849cfa8ac76f61f8550346ef01937c491470a47e661f0e"
+    },
+    {
+      "path": "docs/independent_evaluation_status_2026-10-27.md",
+      "bytes": 14396,
+      "sha256": "844bcbcd0bc0c351cce8fe6c72e36d217f20bca3cc7aadabf6a979ac432263ec"
+    },
+    {
+      "path": "docs/leakage_audit_2026-10-27.md",
+      "bytes": 3868,
+      "sha256": "b8be01d1a7ac38cfba82bb5d7decd21c33dd5bc5f786a6da6d719252a40ab350"
+    },
+    {
+      "path": "docs/meteorology_expert_review_brief.md",
+      "bytes": 2508,
+      "sha256": "4a2e8ba79b929121514ab390b6bbc2c1f7a5de749abef5f843d4cb7de5beb94c"
+    },
+    {
+      "path": "docs/novelty_search_crossref_2026-10-27.json",
+      "bytes": 172175,
+      "sha256": "221cc310e941df23eeda9235b45eb352c98ad55e122126b31656f49652852d8d"
+    },
+    {
+      "path": "docs/novelty_search_log_2026-10-27.md",
+      "bytes": 4098,
+      "sha256": "7e12791e2596145b92a0c4124e88726545603388f15fd940bca8eccca08d01cd"
+    },
+    {
+      "path": "docs/reproduce-manuscript-headlines.md",
+      "bytes": 8714,
+      "sha256": "2806867ac62b1e00dd2464e019ddd3aa9532ba8c1c8b596fd3e5f73fd0f4a4ec"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "bytes": 12034,
+      "sha256": "c8d83fd46a6284a297b02c069d1f2abd278a713d6b62389bcc047e7e7f46e6b3"
+    },
+    {
+      "path": "paper/acquisition-provenance.json",
+      "bytes": 20455,
+      "sha256": "36bc276ce5f14ee8f8c18de21f1f3a54954f6ad58ad2f6e71555b8c531aad25f"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 918,
+      "sha256": "66aa2694bde194ae13577a0946c6c8144d550a5ead68596aa299bc7744788f10"
+    },
+    {
+      "path": "scripts/acquire_cpc_tmax_2026.py",
+      "bytes": 5451,
+      "sha256": "eca9fb725d5e0b5cd67825e17c32bb0e5fe283ded580ae4e517e6a5c2dbef407"
+    },
+    {
+      "path": "scripts/acquire_ghcnd_india_station_data.py",
+      "bytes": 7774,
+      "sha256": "67d1010d60a3fde7379384ad6ece09b2754a84dce59436dbed4472dee9bd7e0c"
+    },
+    {
+      "path": "scripts/acquire_independent_era5_2026.py",
+      "bytes": 1390,
+      "sha256": "11cb6fcd79606d112f5f590ba600af07d4ab50801b9c014dd34f2393a82f79cb"
+    },
+    {
+      "path": "scripts/audit_bibliography_crossref.py",
+      "bytes": 6171,
+      "sha256": "d1292782076d99959e83a0cf16aed6b1fdad51691f36d744d2db3aaa2d5280e7"
+    },
+    {
+      "path": "scripts/audit_fresh_full_era5.py",
+      "bytes": 7897,
+      "sha256": "c714544c11562ac64e94cc944206ab049dcaea65e7c7d739170f9a0f26ab3305"
+    },
+    {
+      "path": "scripts/audit_frozen_model_reconstruction.py",
+      "bytes": 8576,
+      "sha256": "9f2086714112d8f4b13c5f9410905db3fa3e6439c1560796fef91e222bb1c8de"
+    },
+    {
+      "path": "scripts/audit_ghcnd_independent_2026.py",
+      "bytes": 6197,
+      "sha256": "5d4ad0ea2002c7bbd7918e8b6b4f302f66fadc65e1111a679e5d17ec8bf2bb91"
+    },
+    {
+      "path": "scripts/build_release_manifest.py",
+      "bytes": 11801,
+      "sha256": "2211363a7336b65de32a4176b78eb64357d5e9a9f7b2ed0189129ff2018e0d35"
+    },
+    {
+      "path": "scripts/build_source_archive.py",
+      "bytes": 2123,
+      "sha256": "d8d7bdb8bd2b7d8b7a234d383853582e244e23dc7981e8b165642461dcbd18cd"
+    },
+    {
+      "path": "scripts/capture_ghcnd_provider_metadata.py",
+      "bytes": 1696,
+      "sha256": "daf3afe9448375a4c56e0cce1f1b6f4433695e84e8822913083ca2073a834001"
+    },
+    {
+      "path": "scripts/compare_benchmark_runs.py",
+      "bytes": 5003,
+      "sha256": "0c99dae77315247eafaec1945404cb764ccbfb72adbdc3c1ec2884c82316d11b"
+    },
+    {
+      "path": "scripts/document_novelty_search.py",
+      "bytes": 1874,
+      "sha256": "35489cbb5a868b43b8b02afdc1cdcad5a8e6c6a05eb86dd749112c5833c89c8c"
+    },
+    {
+      "path": "scripts/download_imd_realtime_2026.py",
+      "bytes": 6200,
+      "sha256": "93fd2b6e6c01d6383f10c61e183ef6d9c98e77000e491becc00e614f3923cbb9"
+    },
+    {
+      "path": "scripts/download_public_data.py",
+      "bytes": 13394,
+      "sha256": "1e8655813c6e37c42be6f147744d241a1c8e381051854716b50adcc429536c49"
+    },
+    {
+      "path": "scripts/evaluate_frozen_onset_2026.py",
+      "bytes": 21027,
+      "sha256": "f0f636732a314a9ce0150afdb454221094fd9c32bc7edcf9cc318c6ed4674569"
+    },
+    {
+      "path": "scripts/evaluate_frozen_onset_cpc_2026.py",
+      "bytes": 11398,
+      "sha256": "c1e7aa7116945c6e0880a06eba80d73e93f29baa9a2281bc140262a57c36c7f7"
+    },
+    {
+      "path": "scripts/evaluate_frozen_onset_ghcnd.py",
+      "bytes": 15982,
+      "sha256": "1b30db2d308aba00a68f939241d0898889dd608ac6865bce384b960737de4e9b"
+    },
+    {
+      "path": "scripts/evaluate_frozen_onset_power_2026.py",
+      "bytes": 14110,
+      "sha256": "ce4d73cb4d732d95506f5a8767344fac84d82a58c7066692685c9455904ba8c0"
+    },
+    {
+      "path": "scripts/evaluate_label_normal_hgb_sensitivity.py",
+      "bytes": 5527,
+      "sha256": "810d1b50cea79226fbb1bb59b7490e44bc678a1449c5e9c277f08626010ae249"
+    },
+    {
+      "path": "scripts/freeze_onset_model.py",
+      "bytes": 4704,
+      "sha256": "ed685406f163edbedcd90af2bf05df873c1212134ab8c912c8d3508d059bdcdc"
+    },
+    {
+      "path": "scripts/percentile_label_sensitivity.py",
+      "bytes": 9049,
+      "sha256": "8cba2f1d51035193dab6be591c8e2d16f1133d58c7912fb2327a9aafd0521b0c"
+    },
+    {
+      "path": "scripts/rebuild_ghcnd_download_manifest.py",
+      "bytes": 3298,
+      "sha256": "91d004fd05022aa99ded5970891fb7876126093c2bcb12bcae9f98414d7d7560"
+    },
+    {
+      "path": "scripts/render_benchmark_figure.py",
+      "bytes": 2144,
+      "sha256": "1a048656ff1a5846a059d6f77f7160b4d8b09b89b40bad203725efa01ac3cc31"
+    },
+    {
+      "path": "scripts/render_independent_onset_2026_figure.py",
+      "bytes": 3483,
+      "sha256": "bd04eae0f7ef2a00c26cf3d514d6e34c2ed3e1e0df957e20daf9653e30810a8d"
+    },
+    {
+      "path": "scripts/run_benchmark.py",
+      "bytes": 16766,
+      "sha256": "43140ebc0ab4b36eec05e089a7729e876a058ef09f500b5f60dd6eaa3a25d192"
+    },
+    {
+      "path": "scripts/run_brier_decomposition.py",
+      "bytes": 4490,
+      "sha256": "2f419a63fb9139329056ce27056f5d07373c1ca51a6956a51e8da0f2ba06e1d3"
+    },
+    {
+      "path": "scripts/run_onset_bootstrap.py",
+      "bytes": 10156,
+      "sha256": "d7729e22ecc8ef23bbfdcf343339dc2edd802c799524f20d6ab1213e8e31eaff"
+    },
+    {
+      "path": "scripts/run_onset_diagnostics.py",
+      "bytes": 9286,
+      "sha256": "c6d4b2cbc957d626f458cb90d790304049e013e1932807e14fad4af6b5021d0d"
+    },
+    {
+      "path": "scripts/run_onset_redesign_paired_bootstrap.py",
+      "bytes": 5386,
+      "sha256": "5b9722ea33f119f63113797b35716944512e379886c9b3c5cccc1ba21325de8b"
+    },
+    {
+      "path": "scripts/run_sensitivity.py",
+      "bytes": 10319,
+      "sha256": "c579ed80f6336d9fab7716c418452f3163556e77e5873d9f5b442d6da856a53f"
+    },
+    {
+      "path": "scripts/run_transition_benchmark.py",
+      "bytes": 28784,
+      "sha256": "744753cef14e692dc82749745daf7d666d04a0faa414e219720fec1484680d98"
+    },
+    {
+      "path": "scripts/search_openalex_heatwave.py",
+      "bytes": 4136,
+      "sha256": "2db97a7bd7d531b6ba2bb6f0cf16edc5cddb94d879e9febfa4ccdd45a0e0362b"
+    },
+    {
+      "path": "scripts/summarize_cpc_reporting_support_2026.py",
+      "bytes": 4352,
+      "sha256": "0484481cb3d90fd9b684e1e952e927c35749c174e8ac00dcea2b83a816609514"
+    },
+    {
+      "path": "scripts/summarize_openalex_candidates.py",
+      "bytes": 811,
+      "sha256": "ded5d8344a0e16c3a71b3933264b0a1204f5514bb75cb5cba58086d7dada0313"
+    },
+    {
+      "path": "scripts/summarize_yearwise_temporal_test.py",
+      "bytes": 3167,
+      "sha256": "d5622e36fb348f9e2eb48de2d02f550c217ebcde047a51fb3ad72861e2439599"
+    },
+    {
+      "path": "scripts/validate_era5_cache.py",
+      "bytes": 1267,
+      "sha256": "d45983e75f898d71da9d919c7b12f1bc8605e7174c97b0e5276cd77912f97c3b"
+    },
+    {
+      "path": "scripts/verify_fresh_era5_sample.py",
+      "bytes": 2865,
+      "sha256": "787fc70fd35a3908befa30e5bd8bb0e69aee2dd837532f5dc5397e4e8ea1ad83"
+    },
+    {
+      "path": "scripts/verify_fresh_imd_acquisition.py",
+      "bytes": 2592,
+      "sha256": "57dc8a3ea7b00cb3c08d48c36ed3e00423c22844dfd17f3f3ca8a036fc04e146"
+    },
+    {
+      "path": "src/heatwave_benchmark/__init__.py",
+      "bytes": 149,
+      "sha256": "233087a7078a173b3f1168f1024fd4e48c967994eec15f3cafdba8d870daa3c8"
+    },
+    {
+      "path": "src/heatwave_benchmark/artifacts.py",
+      "bytes": 920,
+      "sha256": "3f2640260a735e94315cc45c5b8fcd4e51ff15b44caa163e4b8b08ffdc8ecc6f"
+    },
+    {
+      "path": "src/heatwave_benchmark/config.py",
+      "bytes": 1924,
+      "sha256": "436486240520e50ecba945365f65cfe47bf7357e4fb4151c6428222ebcfcb2a4"
+    },
+    {
+      "path": "src/heatwave_benchmark/data.py",
+      "bytes": 68503,
+      "sha256": "2eff2b92aceec7d77518e66fe72996ee45af1a6d52249685f8a2dc361d5b8cf2"
+    },
+    {
+      "path": "src/heatwave_benchmark/experiments.py",
+      "bytes": 9860,
+      "sha256": "74cb50244db51ef168ddc8d7f979469d2eb78669cb3e0507148ee89cbc633fa1"
+    },
+    {
+      "path": "src/heatwave_benchmark/features.py",
+      "bytes": 9226,
+      "sha256": "deaa3c1584080dcee3d8bb97b5c802472b404802fac5fc08bd500ec85adf5b49"
+    },
+    {
+      "path": "src/heatwave_benchmark/geography.py",
+      "bytes": 3857,
+      "sha256": "b138b92c8a96a4d5d96728fd9672a1ad1deae7737a3dce110d0fdd57c448716e"
+    },
+    {
+      "path": "src/heatwave_benchmark/imd_region_mask_1deg.csv",
+      "bytes": 2164,
+      "sha256": "e5ae8493f2623b149c844ec14c5692f7af83b1ebeb5d7ea0c410137cdf18cf4f"
+    },
+    {
+      "path": "src/heatwave_benchmark/india_boundary_10m.geojson",
+      "bytes": 298015,
+      "sha256": "74529a713aa0803d66f3aed70cc00d84c37426788cafb2475b1980af160ec0c6"
+    },
+    {
+      "path": "src/heatwave_benchmark/labels.py",
+      "bytes": 10099,
+      "sha256": "750a0c8f32a3566edc59612a2226c557e0ec0d94351ac389a587688057714a70"
+    },
+    {
+      "path": "src/heatwave_benchmark/metrics.py",
+      "bytes": 11256,
+      "sha256": "335abf1269e2b8bc0579de8733aa724ff13d2e31bd1ebbfbdb1ee048a009746b"
+    },
+    {
+      "path": "src/heatwave_benchmark/models.py",
+      "bytes": 11242,
+      "sha256": "11c74b97265fa56039ec3ea5bb64156a1fbfee2e6ed375ef13e53775d5a79fb9"
+    },
+    {
+      "path": "src/heatwave_benchmark/onset.py",
+      "bytes": 5692,
+      "sha256": "fdd7b402b43a1aad0502fc9af5437515a61d87f6c058b23a995d74f562ab5cd0"
+    },
+    {
+      "path": "src/heatwave_benchmark/pipeline.py",
+      "bytes": 17133,
+      "sha256": "e386ba2e16af02c489106d7a9b22994b7a42b831a066355e84abb6d3395b3360"
+    },
+    {
+      "path": "src/heatwave_benchmark/provenance.py",
+      "bytes": 9013,
+      "sha256": "113cea137e0c0072330fcf3d342ed156a48f3ae7493e7268d3676a7a252e7402"
+    },
+    {
+      "path": "src/heatwave_benchmark/splits.py",
+      "bytes": 6890,
+      "sha256": "c9f8b1b20d0d4ea28229f87ea34a9982c8b60bcae08e30d354f67882f018360c"
+    },
+    {
+      "path": "src/heatwave_benchmark/transitions.py",
+      "bytes": 24251,
+      "sha256": "6de779314a6ffc0b30a3eed55b8447375f51ada6c62a3bc4b1088657ad063810"
+    },
+    {
+      "path": "src/india_heatwave_benchmark.egg-info/PKG-INFO",
+      "bytes": 957,
+      "sha256": "b689e0c2e0f5f89a330fb1e86b6e7bccb40e3b59568d5d5b328bd9c48a35f568"
+    },
+    {
+      "path": "src/india_heatwave_benchmark.egg-info/SOURCES.txt",
+      "bytes": 3263,
+      "sha256": "d9fd878740e451f53bb5a0bed937e405e5d90f3b3e3aa4bd2f9bf2326a2ccd6a"
+    },
+    {
+      "path": "src/india_heatwave_benchmark.egg-info/dependency_links.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/india_heatwave_benchmark.egg-info/requires.txt",
+      "bytes": 243,
+      "sha256": "0fbde25e184583280abfc639432f9b81b353f018551dffd01143f75d7f43f451"
+    },
+    {
+      "path": "src/india_heatwave_benchmark.egg-info/top_level.txt",
+      "bytes": 19,
+      "sha256": "c15338807c7e07256268f1ac57214a975b8a9cd62082dec3970c7f7d490353e1"
+    },
+    {
+      "path": "tests/test_artifact_paths.py",
+      "bytes": 1209,
+      "sha256": "27a0df6f338460cf3f581a1f76feac50776179213a072bdfa7542b0faf13e3dd"
+    },
+    {
+      "path": "tests/test_benchmark_figure.py",
+      "bytes": 425,
+      "sha256": "b7c4cf3ed1e2477a519712098602653902e7fd14deb2751506b8e13804c68f26"
+    },
+    {
+      "path": "tests/test_config.py",
+      "bytes": 1183,
+      "sha256": "ab7963d7f85a809176a8b881a317ea6aeb81c2ecf9c45cc140fd6ec81bd9bf08"
+    },
+    {
+      "path": "tests/test_data.py",
+      "bytes": 32554,
+      "sha256": "2a1eb2e1c270adcd76efb20013c8e3179b704eea01d2a5faba16b6bcf486a87f"
+    },
+    {
+      "path": "tests/test_experiments.py",
+      "bytes": 3635,
+      "sha256": "3067b088e347ad9d92b18eb808cc45c19d699a46717d27c86d7f113c42e0f445"
+    },
+    {
+      "path": "tests/test_features.py",
+      "bytes": 5021,
+      "sha256": "c8d20596e3301c4dc27d117db6bbc665bd8bbd358f8775f2ea779c0d314ee27a"
+    },
+    {
+      "path": "tests/test_geography.py",
+      "bytes": 596,
+      "sha256": "c550fa5bf54f0e09d881f29e63db61e40b03fa6a9a998e41dc91dfd9b7c507ea"
+    },
+    {
+      "path": "tests/test_labels.py",
+      "bytes": 4691,
+      "sha256": "a00532dbc3fdcf61053edee91dca0c9cbc0c7e0e90dba76b238bc77933e2bb1e"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "bytes": 2939,
+      "sha256": "caa56498d5c20ef52e5dd57d611f2f3ba03986ae86aac20477feb1b8835ae01e"
+    },
+    {
+      "path": "tests/test_models.py",
+      "bytes": 3293,
+      "sha256": "a80583cb14c4cac739e04baf1713703fd905c208ba4da57d7fa00ea9429543a4"
+    },
+    {
+      "path": "tests/test_onset_diagnostics.py",
+      "bytes": 1976,
+      "sha256": "a6ab4bf4068a46800b604cce3d2ae7f649d2a5e9ab6137c8c8b4b4fd2c9152b5"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 9924,
+      "sha256": "2348f72a4bbf2330c277d6a7c6c00c8c17cfca66ee4ed23d1505da6b080e77ae"
+    },
+    {
+      "path": "tests/test_splits.py",
+      "bytes": 3697,
+      "sha256": "48a33ce330f7f7a7496bcf55abd2c78ebbcdc0fae3831eb1731e360bbe3a3f73"
+    },
+    {
+      "path": "tests/test_transition_runner.py",
+      "bytes": 6146,
+      "sha256": "558470b793efe573a78c5eb33d520909b156d5fea42b7d92d0908843a36f3e31"
+    },
+    {
+      "path": "tests/test_transitions.py",
+      "bytes": 6750,
+      "sha256": "1538cb4188856f14059c7fe271b5d0224a8a121b456531728189a690f868ee71"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 711598,
+      "sha256": "87a0cacfc577d4395870a1d7ed2cde6d200372e855069d2f0ab9cf977a6a37b4"
+    }
+  ],
+  "provenance_file": {
+    "path": "paper/acquisition-provenance.json",
+    "bytes": 20455,
+    "sha256": "36bc276ce5f14ee8f8c18de21f1f3a54954f6ad58ad2f6e71555b8c531aad25f"
+  }
+}

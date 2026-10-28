@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.clean-repro-env/
+build/
+dist/
+*.egg-info/
+
+# Source datasets, cached inputs, and generated results are never committed.
+data/
+reports/
+
+# Local credentials and private files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.docx
+*.docx.png

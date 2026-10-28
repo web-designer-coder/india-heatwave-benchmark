@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this benchmark software, please cite it as follows."
+title: "India Heatwave Generalization Benchmark"
+version: 0.2.0
+date-released: 2026-10-28
+authors:
+  - family-names: Wankhade
+    given-names: Aryan
+    affiliation: Independent researcher, Pune, India
+license: MIT
+type: software
+repository-code: "https://github.com/web-designer-coder/india-heatwave-benchmark"

@@ -1,0 +1,20 @@
+include README.md
+include LICENSE
+include CITATION.cff
+include pyproject.toml
+include MANIFEST.in
+include uv.lock
+include configs/benchmark.json
+include docs/data-sources.md
+include docs/reproducibility.md
+include docs/reproduce-manuscript-headlines.md
+include docs/novelty_search_log_2026-10-27.md
+include paper/acquisition-provenance.json
+include paper/reproducibility-manifest.json
+prune data
+prune reports
+prune docs/superpowers
+recursive-include docs *.md *.json
+recursive-include scripts *.py
+recursive-include src *.py *.csv *.geojson
+recursive-include tests *.py
