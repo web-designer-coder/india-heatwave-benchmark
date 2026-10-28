@@ -73,7 +73,7 @@
     "package_name": "india-heatwave-benchmark",
     "package_version": "0.2.0",
     "git_revision": null,
-    "note": "The release commit is recorded here after the clean source snapshot is committed; the v0.2.0 tag identifies the final published snapshot."
+    "note": "The Git commit SHA identifies the exact published snapshot; the manifest intentionally does not attempt to include its own containing commit hash."
   },
   "transition_experiment": {
     "scope_note": "The transition method is Day-1 only. Spatial-transfer scores are conditional on the observed issue-day heatwave state being available at held-out cells. Reanalysis inputs are retrospective and do not establish operational forecast skill. No algorithm-novelty claim is made.",
