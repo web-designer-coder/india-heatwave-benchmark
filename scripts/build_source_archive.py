@@ -24,7 +24,9 @@ def files_to_archive() -> list[Path]:
         if base.exists():
             files.extend(
                 path for path in base.rglob("*")
-                if path.is_file() and not (set(path.parts) & EXCLUDED_PARTS)
+                if path.is_file()
+                and not (set(path.parts) & EXCLUDED_PARTS)
+                and not path.parent.name.endswith(".egg-info")
             )
     return sorted(set(files), key=lambda path: path.relative_to(ROOT).as_posix())
 
